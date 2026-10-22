@@ -3,11 +3,14 @@ import { PanduanCard } from "@/components/sections/PanduanCard";
 import { Stagger, StaggerItem } from "@/components/ui/motion";
 import { PageHeader, Section } from "@/components/ui/primitives";
 import { panduan } from "@/data/panduan";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Panduan Warga",
-  description: "Panduan kegiatan kemasyarakatan untuk warga RT 02 / RW 03 Jatiluhur.",
-};
+  description:
+    "Panduan praktis untuk warga RT 02 / RW 03 Jatiluhur: cara mengurus surat pengantar RT, wajib lapor tamu, jadwal ronda, menabung di bank sampah, dan warga baru.",
+  path: "/panduan",
+});
 
 export default function PanduanPage() {
   return (

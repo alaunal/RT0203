@@ -1,16 +1,19 @@
-import clsx from "clsx";
+import type { CSSProperties } from "react";
 import { CalendarDays, MapPin } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ActivityCard } from "@/components/sections/ActivityCard";
 import { Gallery } from "@/components/sections/Gallery";
-import { WhatsAppIcon } from "@/components/ui/icons";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { Reveal, Stagger, StaggerItem } from "@/components/ui/motion";
-import { btn, KategoriBadge, PageHeader, Section } from "@/components/ui/primitives";
+import { KategoriBadge, PageHeader, Section } from "@/components/ui/primitives";
+import { ShareButtons } from "@/components/ui/ShareButtons";
 import { aktivitas, aktivitasSorted } from "@/data/aktivitas";
+import { kategori } from "@/data/kategori";
 import { site } from "@/data/site";
-import { dateLong, waShareUrl } from "@/lib/format";
+import { dateLong } from "@/lib/format";
+import { absUrl, orgId, pageMeta } from "@/lib/seo";
 
 export function generateStaticParams() {
   return aktivitas.map((a) => ({ slug: a.slug }));
@@ -20,7 +23,14 @@ export async function generateMetadata({ params }: PageProps<"/aktivitas/[slug]"
   const { slug } = await params;
   const a = aktivitas.find((x) => x.slug === slug);
   if (!a) return {};
-  return { title: a.judul, description: a.ringkasan, openGraph: { images: [a.cover] } };
+  return pageMeta({
+    title: a.judul,
+    description: a.ringkasan,
+    path: `/aktivitas/${a.slug}`,
+    type: "article",
+    publishedTime: a.tanggal,
+    section: kategori[a.kategori].label,
+  });
 }
 
 export default async function AktivitasDetail({ params }: PageProps<"/aktivitas/[slug]">) {
@@ -29,16 +39,34 @@ export default async function AktivitasDetail({ params }: PageProps<"/aktivitas/
   if (!a) notFound();
 
   const terkait = aktivitasSorted.filter((x) => x.slug !== a.slug && x.kategori === a.kategori).concat(aktivitasSorted.filter((x) => x.slug !== a.slug && x.kategori !== a.kategori)).slice(0, 3);
-  const url = `https://${site.domain}/aktivitas/${a.slug}`;
+  const path = `/aktivitas/${a.slug}`;
+  const url = absUrl(path);
+  const articleLd = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    mainEntityOfPage: url,
+    headline: a.judul,
+    description: a.ringkasan,
+    articleSection: kategori[a.kategori].label,
+    image: [absUrl(`${path}/opengraph-image`), ...[...new Set([a.cover, ...a.galeri])].map((src) => absUrl(src))],
+    datePublished: `${a.tanggal}T08:00:00+07:00`,
+    dateModified: `${a.tanggal}T08:00:00+07:00`,
+    inLanguage: "id-ID",
+    contentLocation: { "@type": "Place", name: `${a.lokasi}, ${site.namaRt}` },
+    author: { "@type": "Organization", "@id": orgId, name: site.namaRt, url: absUrl("/") },
+    publisher: { "@type": "Organization", "@id": orgId, name: site.namaRt, logo: { "@type": "ImageObject", url: absUrl("/pwa-icon/512") } },
+  };
 
   return (
     <>
+      <JsonLd data={articleLd} />
       <PageHeader title={a.judul} crumbs={[{ label: "Beranda", href: "/" }, { label: "Aktivitas", href: "/aktivitas" }, { label: "Detail" }]} />
       <Section>
         <article className="mx-auto max-w-3xl">
-          <Reveal className="relative -mt-28 aspect-[16/9] overflow-hidden rounded-lg shadow-lift md:-mt-32">
-            <Image src={a.cover} alt={a.judul} fill priority sizes="(min-width:768px) 768px, 100vw" className="object-cover" />
-          </Reveal>
+          {/* Sampul = elemen LCP: animasi CSS + preload, tidak menunggu hidrasi JS. */}
+          <div style={{ "--d": "0.15s" } as CSSProperties} className="relative -mt-28 aspect-[16/9] animate-rise overflow-hidden rounded-lg shadow-lift md:-mt-32">
+            <Image src={a.cover} alt={a.judul} fill preload sizes="(min-width:768px) 768px, 100vw" className="object-cover" />
+          </div>
           <Reveal delay={0.1} className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-[15px] text-muted">
             <KategoriBadge id={a.kategori} />
             <span className="inline-flex items-center gap-1.5"><CalendarDays className="size-4" /> {dateLong(a.tanggal)}</span>
@@ -59,10 +87,8 @@ export default async function AktivitasDetail({ params }: PageProps<"/aktivitas/
             </div>
           )}
 
-          <Reveal className="mt-10">
-            <a href={waShareUrl(`${a.judul}\n${url}`)} target="_blank" rel="noopener" className={clsx(btn.base, btn.outline)}>
-              <WhatsAppIcon className="size-5" /> Bagikan ke WhatsApp
-            </a>
+          <Reveal className="mt-10 border-t border-line pt-6">
+            <ShareButtons url={url} title={a.judul} text={`${a.judul} — ${site.namaRt}`} />
           </Reveal>
         </article>
       </Section>

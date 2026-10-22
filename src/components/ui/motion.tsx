@@ -148,7 +148,8 @@ export function CountUp({
   const shown = reduce ? (inView ? value : 0) : current;
 
   return (
-    <span ref={ref} className={className} aria-label={format(value)}>
+    <span ref={ref} className={className}>
+      <span className="sr-only">{format(value)}</span>
       <span aria-hidden>{format(shown)}</span>
     </span>
   );

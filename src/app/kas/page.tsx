@@ -8,11 +8,14 @@ import { Reveal } from "@/components/ui/motion";
 import { PageHeader, Section } from "@/components/ui/primitives";
 import { laporanInfo, rekapBulanan, saldoAwal } from "@/data/kas";
 import { dateShort, rupiah } from "@/lib/format";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Kas RT",
-  description: "Laporan kas RT 02 / RW 03 Jatiluhur yang terbuka untuk seluruh warga.",
-};
+export const metadata: Metadata = pageMeta({
+  title: "Laporan Kas RT",
+  description:
+    "Laporan kas RT 02 / RW 03 Jatiluhur yang terbuka untuk seluruh warga: pemasukan, pengeluaran, dan saldo per bulan, lengkap dengan grafik dan daftar transaksi.",
+  path: "/kas",
+});
 
 export default function KasPage() {
   return (

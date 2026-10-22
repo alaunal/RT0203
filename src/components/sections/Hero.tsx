@@ -4,13 +4,15 @@ import { CalendarDays, ChevronDown } from "lucide-react";
 import { motion, useScroll, useTransform } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
+import { useRef, type CSSProperties } from "react";
 import clsx from "clsx";
 import { btn } from "@/components/ui/primitives";
-import { CountUp, EASE } from "@/components/ui/motion";
+import { CountUp } from "@/components/ui/motion";
 import { WhatsAppIcon } from "@/components/ui/icons";
 import { site } from "@/data/site";
 import { rupiahShort, waChatUrl } from "@/lib/format";
+
+const rise = (delay: number) => ({ "--d": `${delay}s` }) as CSSProperties;
 
 export function Hero({ saldo, kegiatanBulanIni }: { saldo: number; kegiatanBulanIni: number }) {
   const ref = useRef<HTMLElement>(null);
@@ -26,11 +28,6 @@ export function Hero({ saldo, kegiatanBulanIni }: { saldo: number; kegiatanBulan
     { label: "Kegiatan bulan ini", value: kegiatanBulanIni, fmt: (n: number) => String(Math.round(n)) },
   ];
 
-  const word = {
-    hidden: { opacity: 0, y: 40 },
-    show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: EASE } },
-  };
-
   return (
     <section ref={ref} className="relative isolate flex min-h-[85svh] items-end overflow-hidden lg:min-h-[max(600px,100svh)]">
       <motion.div style={{ y: bgY }} className="absolute inset-0 -z-10">
@@ -38,8 +35,7 @@ export function Hero({ saldo, kegiatanBulanIni }: { saldo: number; kegiatanBulan
           src="/images/hero-perumahan.jpg"
           alt="Pemandangan perumahan warga saat matahari terbenam"
           fill
-          priority
-          fetchPriority="high"
+          preload
           sizes="100vw"
           className="animate-ken-burns object-cover"
         />
@@ -47,34 +43,30 @@ export function Hero({ saldo, kegiatanBulanIni }: { saldo: number; kegiatanBulan
       </motion.div>
 
       <motion.div style={{ y: contentY, opacity: fade }} className="mx-auto w-full max-w-[1200px] px-4 pb-28 pt-32 text-center md:px-6 md:text-left lg:pb-40">
-        <motion.div initial="hidden" animate="show" variants={{ show: { transition: { staggerChildren: 0.12, delayChildren: 0.25 } } }}>
-          <motion.p variants={word} className="mb-4 text-[13px] font-bold uppercase tracking-[.1em] text-accent-400">
+        {/* Animasi masuk via CSS (bukan JS) supaya judul langsung terlukis sebelum hidrasi. */}
+        <div>
+          <p style={rise(0.25)} className="animate-rise mb-4 text-[13px] font-bold uppercase tracking-[.1em] text-accent-400">
             {site.kelurahan} · {site.kecamatan} · {site.kota}
-          </motion.p>
+          </p>
           <h1 className="text-[36px] font-extrabold leading-[42px] text-white md:text-[56px] md:leading-[64px]">
-            <motion.span variants={word} className="inline-block">RT 02 / RW 03</motion.span>{" "}
-            <motion.span variants={word} className="inline-block text-accent-400">Jatiluhur</motion.span>
+            <span style={rise(0.37)} className="animate-rise inline-block">RT 02 / RW 03</span>{" "}
+            <span style={rise(0.49)} className="animate-rise inline-block text-accent-400">Jatiluhur</span>
           </h1>
-          <motion.p variants={word} className="mx-auto mt-4 max-w-xl text-lg leading-7 text-white/85 md:mx-0 md:text-xl">
+          <p style={rise(0.61)} className="animate-rise mx-auto mt-4 max-w-xl text-lg leading-7 text-white/85 md:mx-0 md:text-xl">
             {site.tagline}
-          </motion.p>
-          <motion.div variants={word} className="mt-8 flex flex-col justify-center gap-3 sm:flex-row md:justify-start">
+          </p>
+          <div style={rise(0.73)} className="animate-rise mt-8 flex flex-col justify-center gap-3 sm:flex-row md:justify-start">
             <Link href="#jadwal" className={clsx(btn.base, btn.accent)}>
               <CalendarDays className="size-5" /> Lihat Jadwal Kegiatan
             </Link>
             <a href={waChatUrl(site.waResmi, "Halo Pengurus RT 02, saya ingin bertanya.")} target="_blank" rel="noopener" className={clsx(btn.base, btn.ghost)}>
               <WhatsAppIcon className="size-5" /> Hubungi Pengurus
             </a>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.9, ease: EASE }}
-        className="absolute inset-x-0 bottom-6 hidden lg:block"
-      >
+      <div style={rise(0.9)} className="animate-rise absolute inset-x-0 bottom-6 hidden lg:block">
         <dl className="mx-auto grid max-w-[1200px] grid-cols-4 gap-px overflow-hidden rounded-lg border border-white/20 bg-white/10 px-0 backdrop-blur-md">
           {stats.map((s) => (
             <div key={s.label} className="px-6 py-4 text-white">
@@ -85,7 +77,7 @@ export function Hero({ saldo, kegiatanBulanIni }: { saldo: number; kegiatanBulan
             </div>
           ))}
         </dl>
-      </motion.div>
+      </div>
 
       <motion.a
         href="#lokasi"

@@ -3,11 +3,14 @@ import type { Metadata } from "next";
 import { DokumenList } from "@/components/sections/DokumenList";
 import { Reveal } from "@/components/ui/motion";
 import { PageHeader, Section } from "@/components/ui/primitives";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Dokumen & Arsip",
-  description: "Formulir, notulen rapat, laporan kas, dan peraturan RT 02 / RW 03 Jatiluhur.",
-};
+  description:
+    "Unduh formulir surat pengantar, formulir lapor tamu, notulen rapat, laporan kas bulanan, dan peraturan lingkungan RT 02 / RW 03 Jatiluhur.",
+  path: "/dokumen",
+});
 
 export default function DokumenPage() {
   return (

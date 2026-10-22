@@ -66,6 +66,18 @@ Saldo kas **dihitung otomatis** dari `data/kas.ts → transaksi` (PRD §6.8), ja
 
 Semua animasi menghormati `prefers-reduced-motion`.
 
+## SEO, performa & share
+
+- **Domain**: URL kanonis, sitemap, dan tautan share memakai `https://rt02rw03jatiluhur.my.id`. Untuk domain lain (mis. preview), set `NEXT_PUBLIC_SITE_URL=https://domain-anda` saat build.
+- **Metadata** per halaman lewat `pageMeta()` di `src/lib/seo.ts`: title, description, canonical, Open Graph, Twitter card.
+- **Gambar share (OG)** dibuat otomatis per halaman (`opengraph-image.tsx`) dari foto sampul + judul, 1200×630 JPEG (±110–200 KB, aman untuk pratinjau WhatsApp). Dirender saat build.
+- **Structured data (JSON-LD)**: Organization + WebSite (semua halaman), BreadcrumbList (halaman dalam), NewsArticle (aktivitas), Article (panduan), Event (jadwal mendatang).
+- **File meta**: `/sitemap.xml` (dengan gambar), `/robots.txt`, `/manifest.webmanifest`, ikon SVG + apple-touch-icon + ikon PWA 192/512.
+- **Tombol bagikan** (aktivitas & panduan): WhatsApp, Facebook, X, Telegram, salin tautan, plus tombol share bawaan HP (Web Share API) bila tersedia.
+- **Performa**: Recharts, Leaflet, kalender, dan lightbox baru diunduh saat section-nya mendekati layar / foto dibuka; animasi pembuka Hero & header halaman memakai CSS (tampil sebelum JS); CSS di-inline di `<head>`.
+
+Cek setelah deploy: [Rich Results Test](https://search.google.com/test/rich-results), [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/), lalu daftarkan sitemap di Google Search Console.
+
 ## Catatan
 
 - Kalender dirender client-only supaya jam event mengikuti zona waktu perangkat (WIB) tanpa mismatch hidrasi.

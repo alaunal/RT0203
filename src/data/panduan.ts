@@ -13,6 +13,8 @@ export type Panduan = {
   kategori: string;
   cover: string;
   menit: number;
+  /** Tanggal terbit/perbarui terakhir (YYYY-MM-DD). */
+  diperbarui: string;
   bagian: { judul: string; blok: Blok[] }[];
 };
 
@@ -24,6 +26,7 @@ export const panduan: Panduan[] = [
     kategori: "Administrasi",
     cover: "/images/pd-surat.jpg",
     menit: 3,
+    diperbarui: "2026-05-04",
     bagian: [
       {
         judul: "Kapan butuh surat pengantar?",
@@ -54,6 +57,7 @@ export const panduan: Panduan[] = [
     kategori: "Keamanan",
     cover: "/images/pd-lapor-tamu.jpg",
     menit: 2,
+    diperbarui: "2026-05-18",
     bagian: [
       {
         judul: "Mengapa wajib lapor?",
@@ -75,6 +79,7 @@ export const panduan: Panduan[] = [
     kategori: "Keamanan",
     cover: "/images/pd-ronda-gang.jpg",
     menit: 3,
+    diperbarui: "2026-06-08",
     bagian: [
       {
         judul: "Jam ronda",
@@ -96,6 +101,7 @@ export const panduan: Panduan[] = [
     kategori: "Lingkungan",
     cover: "/images/pd-bank-sampah.jpg",
     menit: 3,
+    diperbarui: "2026-07-13",
     bagian: [
       {
         judul: "Daftar jadi nasabah",
@@ -117,6 +123,7 @@ export const panduan: Panduan[] = [
     kategori: "Administrasi",
     cover: "/images/pd-rumah-baru.jpg",
     menit: 4,
+    diperbarui: "2026-08-24",
     bagian: [
       {
         judul: "Minggu pertama",

@@ -1,16 +1,17 @@
-import clsx from "clsx";
+import type { CSSProperties } from "react";
 import { Clock, Info } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ReadingProgress, Toc } from "@/components/sections/ArticleChrome";
 import { PanduanCard } from "@/components/sections/PanduanCard";
-import { WhatsAppIcon } from "@/components/ui/icons";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { Reveal, Stagger, StaggerItem } from "@/components/ui/motion";
-import { btn, PageHeader, Section } from "@/components/ui/primitives";
+import { PageHeader, Section } from "@/components/ui/primitives";
+import { ShareButtons } from "@/components/ui/ShareButtons";
 import { panduan, type Blok } from "@/data/panduan";
 import { site } from "@/data/site";
-import { waShareUrl } from "@/lib/format";
+import { absUrl, orgId, pageMeta } from "@/lib/seo";
 
 export function generateStaticParams() {
   return panduan.map((p) => ({ slug: p.slug }));
@@ -20,7 +21,15 @@ export async function generateMetadata({ params }: PageProps<"/panduan/[slug]">)
   const { slug } = await params;
   const p = panduan.find((x) => x.slug === slug);
   if (!p) return {};
-  return { title: p.judul, description: p.ringkasan, openGraph: { type: "article", images: [p.cover] } };
+  return pageMeta({
+    title: p.judul,
+    description: p.ringkasan,
+    path: `/panduan/${p.slug}`,
+    type: "article",
+    publishedTime: p.diperbarui,
+    modifiedTime: p.diperbarui,
+    section: p.kategori,
+  });
 }
 
 const anchor = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -63,18 +72,36 @@ export default async function PanduanDetail({ params }: PageProps<"/panduan/[slu
 
   const toc = p.bagian.map((b) => ({ id: anchor(b.judul), label: b.judul }));
   const lain = panduan.filter((x) => x.slug !== p.slug).slice(0, 3);
-  const url = `https://${site.domain}/panduan/${p.slug}`;
+  const path = `/panduan/${p.slug}`;
+  const url = absUrl(path);
+  const articleLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    mainEntityOfPage: url,
+    headline: p.judul,
+    description: p.ringkasan,
+    articleSection: p.kategori,
+    image: [absUrl(`${path}/opengraph-image`), absUrl(p.cover)],
+    datePublished: `${p.diperbarui}T08:00:00+07:00`,
+    dateModified: `${p.diperbarui}T08:00:00+07:00`,
+    timeRequired: `PT${p.menit}M`,
+    inLanguage: "id-ID",
+    author: { "@type": "Organization", "@id": orgId, name: site.namaRt, url: absUrl("/") },
+    publisher: { "@type": "Organization", "@id": orgId, name: site.namaRt, logo: { "@type": "ImageObject", url: absUrl("/pwa-icon/512") } },
+  };
 
   return (
     <>
+      <JsonLd data={articleLd} />
       <ReadingProgress />
       <PageHeader title={p.judul} intro={p.ringkasan} crumbs={[{ label: "Beranda", href: "/" }, { label: "Panduan", href: "/panduan" }, { label: p.kategori }]} />
       <Section>
         <div className="grid gap-10 lg:grid-cols-[1fr_280px]">
           <article className="max-w-[68ch] text-lg leading-[30px]">
-            <Reveal className="relative mb-8 aspect-[16/9] overflow-hidden rounded-lg shadow-card">
-              <Image src={p.cover} alt="" fill priority sizes="(min-width:1024px) 700px, 100vw" className="object-cover" />
-            </Reveal>
+            {/* Sampul = elemen LCP: animasi CSS + preload, tidak menunggu hidrasi JS. */}
+            <div style={{ "--d": "0.15s" } as CSSProperties} className="relative mb-8 aspect-[16/9] animate-rise overflow-hidden rounded-lg shadow-card">
+              <Image src={p.cover} alt={p.judul} fill preload sizes="(min-width:1024px) 700px, 100vw" className="object-cover" />
+            </div>
             <p className="mb-8 inline-flex items-center gap-1.5 text-[15px] font-medium text-muted">
               <Clock className="size-4" /> {p.menit} menit baca · {p.kategori}
             </p>
@@ -88,9 +115,7 @@ export default async function PanduanDetail({ params }: PageProps<"/panduan/[slu
                 </div>
               </section>
             ))}
-            <a href={waShareUrl(`${p.judul}\n${url}`)} target="_blank" rel="noopener" className={clsx(btn.base, btn.outline)}>
-              <WhatsAppIcon className="size-5" /> Bagikan ke WhatsApp
-            </a>
+            <ShareButtons url={url} title={p.judul} text={`${p.judul} — ${site.namaRt}`} className="border-t border-line pt-6" />
           </article>
           <aside className="hidden lg:block">
             <div className="sticky top-28">

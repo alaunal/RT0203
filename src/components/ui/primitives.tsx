@@ -3,6 +3,8 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { kategori, type KategoriId } from "@/data/kategori";
+import { breadcrumbLd } from "@/lib/seo";
+import { JsonLd } from "./JsonLd";
 import { Reveal } from "./motion";
 
 export const btn = {
@@ -74,6 +76,7 @@ export function KategoriBadge({ id, className }: { id: KategoriId; className?: s
 export function PageHeader({ title, intro, crumbs }: { title: string; intro?: string; crumbs: { label: string; href?: string }[] }) {
   return (
     <header className="relative overflow-hidden bg-primary-700 pt-32 pb-14 md:pt-36 md:pb-16 text-white">
+      <JsonLd data={breadcrumbLd(crumbs.map((c) => ({ name: c.label, path: c.href })))} />
       <svg className="pointer-events-none absolute inset-0 h-full w-full opacity-[.07]" aria-hidden>
         <defs>
           <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
@@ -83,7 +86,7 @@ export function PageHeader({ title, intro, crumbs }: { title: string; intro?: st
         <rect width="100%" height="100%" fill="url(#dots)" />
       </svg>
       <div className="relative mx-auto max-w-[1200px] px-4 md:px-6">
-        <Reveal>
+        <div className="animate-rise">
           <nav aria-label="Breadcrumb" className="mb-3 text-sm text-white/70">
             <ol className="flex flex-wrap items-center gap-1.5">
               {crumbs.map((c, i) => (
@@ -96,7 +99,7 @@ export function PageHeader({ title, intro, crumbs }: { title: string; intro?: st
           </nav>
           <h1 className="max-w-3xl text-[30px] leading-[38px] md:text-[40px] md:leading-[48px] font-bold text-balance">{title}</h1>
           {intro && <p className="mt-3 max-w-2xl text-lg text-white/80">{intro}</p>}
-        </Reveal>
+        </div>
       </div>
     </header>
   );

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <circle cx="24" cy="24" r="24" fill="#1F6F4A"/>
+  <circle cx="24" cy="24" r="20" fill="none" stroke="#E8A33D" stroke-width="1.5"/>
+  <text x="24" y="22" text-anchor="middle" font-size="11" font-weight="800" fill="#fff" font-family="system-ui, sans-serif">RT</text>
+  <text x="24" y="34" text-anchor="middle" font-size="9" font-weight="700" fill="#F0B85A" font-family="system-ui, sans-serif">02/03</text>
+</svg>

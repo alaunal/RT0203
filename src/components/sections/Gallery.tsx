@@ -1,11 +1,11 @@
 "use client";
 
 import { motion } from "motion/react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useState } from "react";
-import Lightbox from "yet-another-react-lightbox";
-import Zoom from "yet-another-react-lightbox/plugins/zoom";
-import "yet-another-react-lightbox/styles.css";
+
+const PhotoLightbox = dynamic(() => import("./PhotoLightbox"), { ssr: false });
 
 export function Gallery({ images, alt }: { images: string[]; alt: string }) {
   const [index, setIndex] = useState(-1);
@@ -29,7 +29,7 @@ export function Gallery({ images, alt }: { images: string[]; alt: string }) {
           </motion.button>
         ))}
       </div>
-      <Lightbox open={index >= 0} index={index} close={() => setIndex(-1)} slides={images.map((src) => ({ src }))} plugins={[Zoom]} />
+      {index >= 0 && <PhotoLightbox index={index} close={() => setIndex(-1)} slides={images.map((src) => ({ src }))} />}
     </>
   );
 }

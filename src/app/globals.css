@@ -45,10 +45,15 @@
 
   --animate-ken-burns: ken-burns 24s ease-out both;
   --animate-shimmer: shimmer 1.6s linear infinite;
+  /* Animasi masuk berbasis CSS untuk konten di atas lipatan: tampil tanpa menunggu hidrasi JS (LCP/FCP). Jeda via --d. */
+  --animate-rise: rise 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) var(--d, 0s) both;
 
   @keyframes ken-burns {
     from { transform: scale(1.12); }
     to { transform: scale(1); }
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(32px); }
   }
   @keyframes shimmer {
     from { background-position: -200% 0; }
@@ -82,6 +87,7 @@
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+    animation-delay: 0s !important;
     transition-duration: 0.01ms !important;
   }
 }

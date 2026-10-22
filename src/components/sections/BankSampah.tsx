@@ -2,15 +2,20 @@
 
 import { CalendarClock, MapPin, Recycle, Scale, Users, Wallet } from "lucide-react";
 import { motion, useScroll, useTransform } from "motion/react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useRef } from "react";
-import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis } from "recharts";
+import { Shimmer, useNearView } from "@/components/ui/lazy";
 import { CountUp, Reveal, Stagger, StaggerItem } from "@/components/ui/motion";
 import { Section, SectionHeader } from "@/components/ui/primitives";
 import { bankSampah as bs } from "@/data/komunitas";
 import { dateShort, rupiah } from "@/lib/format";
 
+const Chart = dynamic(() => import("./BankSampahChart"), { ssr: false, loading: () => <Shimmer className="h-full rounded-md" /> });
+
 export function BankSampah() {
+  const chartRef = useRef<HTMLDivElement>(null);
+  const chartNear = useNearView(chartRef);
   const stepsRef = useRef<HTMLOListElement>(null);
   const { scrollYProgress } = useScroll({ target: stepsRef, offset: ["start 85%", "end 55%"] });
   const progress = useTransform(scrollYProgress, [0, 1], [0, 1]);
@@ -116,20 +121,8 @@ export function BankSampah() {
         <Reveal direction="left" delay={0.1} className="flex flex-col gap-6 lg:col-span-5">
           <div className="rounded-lg bg-surface p-5 shadow-soft ring-1 ring-line/60">
             <h3 className="text-lg font-semibold">Tren sampah terkumpul (kg)</h3>
-            <div className="mt-3 h-40">
-              <ResponsiveContainer width="100%" height="100%">
-                <AreaChart data={bs.trenKg} margin={{ top: 8, right: 4, left: 4, bottom: 0 }}>
-                  <defs>
-                    <linearGradient id="kg" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0%" stopColor="#0F766E" stopOpacity={0.35} />
-                      <stop offset="100%" stopColor="#0F766E" stopOpacity={0} />
-                    </linearGradient>
-                  </defs>
-                  <XAxis dataKey="label" tickLine={false} axisLine={false} tick={{ fill: "#5C5A52", fontSize: 12 }} padding={{ left: 14, right: 14 }} interval={0} />
-                  <Tooltip formatter={(v) => [`${v} kg`, "Terkumpul"]} contentStyle={{ borderRadius: 12, border: "1px solid #E2E0D8", fontSize: 13 }} />
-                  <Area type="monotone" dataKey="kg" stroke="#0F766E" strokeWidth={2.5} fill="url(#kg)" animationDuration={1400} />
-                </AreaChart>
-              </ResponsiveContainer>
+            <div ref={chartRef} className="mt-3 h-40">
+              {chartNear && <Chart />}
             </div>
           </div>
           <div className="relative aspect-[16/9] overflow-hidden rounded-lg shadow-soft">
