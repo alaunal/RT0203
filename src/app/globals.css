@@ -43,13 +43,13 @@
 
   --ease-out-soft: cubic-bezier(0.2, 0.8, 0.2, 1);
 
-  --animate-ken-burns: ken-burns 24s ease-out both;
+  --animate-hero-zoom-out: hero-zoom-out 30s linear both;
   --animate-shimmer: shimmer 1.6s linear infinite;
   /* Animasi masuk berbasis CSS untuk konten di atas lipatan: tampil tanpa menunggu hidrasi JS (LCP/FCP). Jeda via --d. */
   --animate-rise: rise 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) var(--d, 0s) both;
 
-  @keyframes ken-burns {
-    from { transform: scale(1.12); }
+  @keyframes hero-zoom-out {
+    from { transform: scale(1.25); }
     to { transform: scale(1); }
   }
   @keyframes rise {

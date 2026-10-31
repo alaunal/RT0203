@@ -31,15 +31,14 @@ export default function MapView() {
 
   useEffect(() => {
     if (!ref.current) return;
-    const map = L.map(ref.current, { center: [site.lat, site.lng], zoom: 16, scrollWheelZoom: false });
+    const map = L.map(ref.current, { center: [site.lat, site.lng], zoom: 18, scrollWheelZoom: false });
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
 
-    const gmaps = `https://www.google.com/maps/search/?api=1&query=${site.lat},${site.lng}`;
     L.marker([site.lat, site.lng], { icon: pin })
       .addTo(map)
-      .bindPopup(`<strong>${site.namaRt}</strong><br/>Sekretariat RT 02<br/><a href="${gmaps}" target="_blank" rel="noopener">Buka di Google Maps</a>`);
+      .bindPopup(`<strong>${site.lokasiPatokan}</strong><br/>Patokan lokasi ${site.namaPendek}<br/><a href="${site.googleMapsUrl}" target="_blank" rel="noopener">Buka di Google Maps</a>`);
 
     return () => {
       map.remove();

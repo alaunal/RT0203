@@ -1,0 +1,4257 @@
+{
+  "sumber": "KAS RT 02 RW 03 JATILUHUR.xlsx",
+  "sha256": "8415dcf8bbfdbdece035a4a8720cb0cd82f1fc6f17c860160b3ea49ed39032bf",
+  "sampai": "2026-10-24",
+  "tahunan": [
+    {
+      "tahun": "2023",
+      "saldoAwal": 20000,
+      "masuk": 15747000,
+      "keluar": 13378400,
+      "saldoAkhir": 2388600,
+      "jumlahTransaksi": 80,
+      "sampai": "2023-12-26"
+    },
+    {
+      "tahun": "2024",
+      "saldoAwal": 2388600,
+      "masuk": 15350000,
+      "keluar": 16950860,
+      "saldoAkhir": 787740,
+      "jumlahTransaksi": 113,
+      "sampai": "2024-12-30"
+    },
+    {
+      "tahun": "2025",
+      "saldoAwal": 787740,
+      "masuk": 33930000,
+      "keluar": 33508991,
+      "saldoAkhir": 1208749,
+      "jumlahTransaksi": 160,
+      "sampai": "2025-12-31"
+    },
+    {
+      "tahun": "2026",
+      "saldoAwal": 1208749,
+      "masuk": 21510000,
+      "keluar": 21237500,
+      "saldoAkhir": 1481249,
+      "jumlahTransaksi": 115,
+      "sampai": "2026-10-24"
+    }
+  ],
+  "transaksi": [
+    {
+      "id": "trx-2023-6",
+      "tanggal": "2023-01-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 1680000,
+      "sumberBaris": 6
+    },
+    {
+      "id": "trx-2023-7",
+      "tanggal": "2023-01-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 7
+    },
+    {
+      "id": "trx-2023-8",
+      "tanggal": "2023-02-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 8
+    },
+    {
+      "id": "trx-2023-9",
+      "tanggal": "2023-02-08",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 480000,
+      "sumberBaris": 9
+    },
+    {
+      "id": "trx-2023-10",
+      "tanggal": "2023-03-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 10
+    },
+    {
+      "id": "trx-2023-11",
+      "tanggal": "2023-03-01",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 430000,
+      "sumberBaris": 11
+    },
+    {
+      "id": "trx-2023-12",
+      "tanggal": "2023-04-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 12
+    },
+    {
+      "id": "trx-2023-13",
+      "tanggal": "2023-04-04",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 440000,
+      "sumberBaris": 13
+    },
+    {
+      "id": "trx-2023-14",
+      "tanggal": "2023-05-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 14
+    },
+    {
+      "id": "trx-2023-15",
+      "tanggal": "2023-05-01",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 450000,
+      "sumberBaris": 15
+    },
+    {
+      "id": "trx-2023-16",
+      "tanggal": "2023-06-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 16
+    },
+    {
+      "id": "trx-2023-17",
+      "tanggal": "2023-06-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 1680000,
+      "sumberBaris": 17
+    },
+    {
+      "id": "trx-2023-18",
+      "tanggal": "2023-06-04",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 440000,
+      "sumberBaris": 18
+    },
+    {
+      "id": "trx-2023-19",
+      "tanggal": "2023-07-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 19
+    },
+    {
+      "id": "trx-2023-20",
+      "tanggal": "2023-07-19",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 440000,
+      "sumberBaris": 20
+    },
+    {
+      "id": "trx-2023-21",
+      "tanggal": "2023-07-21",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 300000,
+      "sumberBaris": 21
+    },
+    {
+      "id": "trx-2023-22",
+      "tanggal": "2023-08-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 22
+    },
+    {
+      "id": "trx-2023-23",
+      "tanggal": "2023-08-01",
+      "uraian": "Beli Umbul2",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 500000,
+      "sumberBaris": 23
+    },
+    {
+      "id": "trx-2023-24",
+      "tanggal": "2023-08-07",
+      "uraian": "Sumbangan kegiatan HUT RI",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 1000000,
+      "sumberBaris": 24
+    },
+    {
+      "id": "trx-2023-25",
+      "tanggal": "2023-08-15",
+      "uraian": "Seragam Panitia 17an",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 1076900,
+      "sumberBaris": 25
+    },
+    {
+      "id": "trx-2023-26",
+      "tanggal": "2023-08-16",
+      "uraian": "Hadiah Lomba Tennis Meja",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 500000,
+      "sumberBaris": 26
+    },
+    {
+      "id": "trx-2023-27",
+      "tanggal": "2023-09-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 27
+    },
+    {
+      "id": "trx-2023-28",
+      "tanggal": "2023-09-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 28
+    },
+    {
+      "id": "trx-2023-29",
+      "tanggal": "2023-09-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 29
+    },
+    {
+      "id": "trx-2023-30",
+      "tanggal": "2023-09-21",
+      "uraian": "Bantuan operasional RT",
+      "kategori": "Bantuan operasional",
+      "jenis": "masuk",
+      "nominal": 1500000,
+      "sumberBaris": 30
+    },
+    {
+      "id": "trx-2023-31",
+      "tanggal": "2023-09-23",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 31
+    },
+    {
+      "id": "trx-2023-32",
+      "tanggal": "2023-09-26",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 32
+    },
+    {
+      "id": "trx-2023-33",
+      "tanggal": "2023-10-02",
+      "uraian": "Kegiatan Pos Yandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 33
+    },
+    {
+      "id": "trx-2023-34",
+      "tanggal": "2023-10-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 34
+    },
+    {
+      "id": "trx-2023-35",
+      "tanggal": "2023-10-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 35
+    },
+    {
+      "id": "trx-2023-36",
+      "tanggal": "2023-10-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 50000,
+      "sumberBaris": 36
+    },
+    {
+      "id": "trx-2023-37",
+      "tanggal": "2023-10-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 37
+    },
+    {
+      "id": "trx-2023-38",
+      "tanggal": "2023-10-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 38
+    },
+    {
+      "id": "trx-2023-39",
+      "tanggal": "2023-10-05",
+      "uraian": "Layanan internet lingkungan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 356000,
+      "sumberBaris": 39
+    },
+    {
+      "id": "trx-2023-40",
+      "tanggal": "2023-10-07",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1500000,
+      "sumberBaris": 40
+    },
+    {
+      "id": "trx-2023-41",
+      "tanggal": "2023-10-08",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 41
+    },
+    {
+      "id": "trx-2023-42",
+      "tanggal": "2023-10-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 400000,
+      "sumberBaris": 42
+    },
+    {
+      "id": "trx-2023-43",
+      "tanggal": "2023-10-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 43
+    },
+    {
+      "id": "trx-2023-44",
+      "tanggal": "2023-10-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 44
+    },
+    {
+      "id": "trx-2023-45",
+      "tanggal": "2023-10-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 45
+    },
+    {
+      "id": "trx-2023-46",
+      "tanggal": "2023-10-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 46
+    },
+    {
+      "id": "trx-2023-47",
+      "tanggal": "2023-10-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 47
+    },
+    {
+      "id": "trx-2023-48",
+      "tanggal": "2023-10-11",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 48
+    },
+    {
+      "id": "trx-2023-49",
+      "tanggal": "2023-10-11",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 750000,
+      "sumberBaris": 49
+    },
+    {
+      "id": "trx-2023-50",
+      "tanggal": "2023-10-16",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 50
+    },
+    {
+      "id": "trx-2023-51",
+      "tanggal": "2023-10-20",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 752500,
+      "sumberBaris": 51
+    },
+    {
+      "id": "trx-2023-52",
+      "tanggal": "2023-10-27",
+      "uraian": "Kegiatan KATAR dan BANOP",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 200000,
+      "sumberBaris": 52
+    },
+    {
+      "id": "trx-2023-53",
+      "tanggal": "2023-10-29",
+      "uraian": "Sumbangan kegiatan dan lingkungan RT",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 500000,
+      "sumberBaris": 53
+    },
+    {
+      "id": "trx-2023-54",
+      "tanggal": "2023-11-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 54
+    },
+    {
+      "id": "trx-2023-55",
+      "tanggal": "2023-11-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 55
+    },
+    {
+      "id": "trx-2023-56",
+      "tanggal": "2023-11-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 56
+    },
+    {
+      "id": "trx-2023-57",
+      "tanggal": "2023-11-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 57
+    },
+    {
+      "id": "trx-2023-58",
+      "tanggal": "2023-11-05",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 750000,
+      "sumberBaris": 58
+    },
+    {
+      "id": "trx-2023-59",
+      "tanggal": "2023-11-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 300000,
+      "sumberBaris": 59
+    },
+    {
+      "id": "trx-2023-60",
+      "tanggal": "2023-11-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 60
+    },
+    {
+      "id": "trx-2023-61",
+      "tanggal": "2023-11-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 61
+    },
+    {
+      "id": "trx-2023-62",
+      "tanggal": "2023-11-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 62
+    },
+    {
+      "id": "trx-2023-63",
+      "tanggal": "2023-11-08",
+      "uraian": "Bantuan operasional RT",
+      "kategori": "Bantuan operasional",
+      "jenis": "masuk",
+      "nominal": 1600000,
+      "sumberBaris": 63
+    },
+    {
+      "id": "trx-2023-64",
+      "tanggal": "2023-11-08",
+      "uraian": "Bayar Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 64
+    },
+    {
+      "id": "trx-2023-65",
+      "tanggal": "2023-11-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 330000,
+      "sumberBaris": 65
+    },
+    {
+      "id": "trx-2023-66",
+      "tanggal": "2023-11-12",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 66
+    },
+    {
+      "id": "trx-2023-67",
+      "tanggal": "2023-11-13",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 752500,
+      "sumberBaris": 67
+    },
+    {
+      "id": "trx-2023-68",
+      "tanggal": "2023-11-20",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 68
+    },
+    {
+      "id": "trx-2023-69",
+      "tanggal": "2023-11-20",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 69
+    },
+    {
+      "id": "trx-2023-70",
+      "tanggal": "2023-11-21",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 70
+    },
+    {
+      "id": "trx-2023-71",
+      "tanggal": "2023-11-21",
+      "uraian": "Bantuan sosial warga dan pemeliharaan CCTV",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 450000,
+      "sumberBaris": 71
+    },
+    {
+      "id": "trx-2023-72",
+      "tanggal": "2023-11-26",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 72
+    },
+    {
+      "id": "trx-2023-73",
+      "tanggal": "2023-12-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 73
+    },
+    {
+      "id": "trx-2023-74",
+      "tanggal": "2023-12-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 74
+    },
+    {
+      "id": "trx-2023-75",
+      "tanggal": "2023-12-06",
+      "uraian": "Iuran Posyandu dan Beli Piring Rotan",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 208000,
+      "sumberBaris": 75
+    },
+    {
+      "id": "trx-2023-76",
+      "tanggal": "2023-12-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 76
+    },
+    {
+      "id": "trx-2023-77",
+      "tanggal": "2023-12-08",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 77
+    },
+    {
+      "id": "trx-2023-78",
+      "tanggal": "2023-12-08",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 78
+    },
+    {
+      "id": "trx-2023-79",
+      "tanggal": "2023-12-08",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 600000,
+      "sumberBaris": 79
+    },
+    {
+      "id": "trx-2023-80",
+      "tanggal": "2023-12-14",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 337000,
+      "sumberBaris": 80
+    },
+    {
+      "id": "trx-2023-81",
+      "tanggal": "2023-12-15",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 81
+    },
+    {
+      "id": "trx-2023-82",
+      "tanggal": "2023-12-16",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1502500,
+      "sumberBaris": 82
+    },
+    {
+      "id": "trx-2023-83",
+      "tanggal": "2023-12-17",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 83
+    },
+    {
+      "id": "trx-2023-84",
+      "tanggal": "2023-12-19",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 84
+    },
+    {
+      "id": "trx-2023-85",
+      "tanggal": "2023-12-26",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 250000,
+      "sumberBaris": 85
+    },
+    {
+      "id": "trx-2024-6",
+      "tanggal": "2024-01-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 6
+    },
+    {
+      "id": "trx-2024-7",
+      "tanggal": "2024-01-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 7
+    },
+    {
+      "id": "trx-2024-8",
+      "tanggal": "2024-01-19",
+      "uraian": "Sumbangan kegiatan dan lingkungan RT",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 8
+    },
+    {
+      "id": "trx-2024-9",
+      "tanggal": "2024-01-19",
+      "uraian": "Sumbangan kegiatan dan lingkungan RT",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 250000,
+      "sumberBaris": 9
+    },
+    {
+      "id": "trx-2024-10",
+      "tanggal": "2024-01-20",
+      "uraian": "Bayar Material buat Cor Jalan depan Lilbe",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 772500,
+      "sumberBaris": 10
+    },
+    {
+      "id": "trx-2024-11",
+      "tanggal": "2024-01-20",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 11
+    },
+    {
+      "id": "trx-2024-12",
+      "tanggal": "2024-01-20",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 12
+    },
+    {
+      "id": "trx-2024-13",
+      "tanggal": "2024-01-20",
+      "uraian": "Konsumsi dan Material pengecoran jalan",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 750000,
+      "sumberBaris": 13
+    },
+    {
+      "id": "trx-2024-14",
+      "tanggal": "2024-01-20",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 14
+    },
+    {
+      "id": "trx-2024-15",
+      "tanggal": "2024-01-23",
+      "uraian": "Bantuan operasional RT",
+      "kategori": "Bantuan operasional",
+      "jenis": "masuk",
+      "nominal": 1500000,
+      "sumberBaris": 15
+    },
+    {
+      "id": "trx-2024-16",
+      "tanggal": "2024-01-23",
+      "uraian": "Beli Kursi Napolly 15 buah",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 1500000,
+      "sumberBaris": 16
+    },
+    {
+      "id": "trx-2024-17",
+      "tanggal": "2024-01-24",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 900000,
+      "sumberBaris": 17
+    },
+    {
+      "id": "trx-2024-18",
+      "tanggal": "2024-01-25",
+      "uraian": "Konsumsi Rapat RT",
+      "kategori": "Rapat",
+      "jenis": "keluar",
+      "nominal": 500000,
+      "sumberBaris": 18
+    },
+    {
+      "id": "trx-2024-19",
+      "tanggal": "2024-01-28",
+      "uraian": "beli Cover terpal",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 500000,
+      "sumberBaris": 19
+    },
+    {
+      "id": "trx-2024-20",
+      "tanggal": "2024-01-28",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 400000,
+      "sumberBaris": 20
+    },
+    {
+      "id": "trx-2024-21",
+      "tanggal": "2024-02-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 21
+    },
+    {
+      "id": "trx-2024-22",
+      "tanggal": "2024-02-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 22
+    },
+    {
+      "id": "trx-2024-23",
+      "tanggal": "2024-02-04",
+      "uraian": "Berbagi Sayur",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 23
+    },
+    {
+      "id": "trx-2024-24",
+      "tanggal": "2024-02-06",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 24
+    },
+    {
+      "id": "trx-2024-25",
+      "tanggal": "2024-02-08",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 25
+    },
+    {
+      "id": "trx-2024-26",
+      "tanggal": "2024-02-19",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 26
+    },
+    {
+      "id": "trx-2024-27",
+      "tanggal": "2024-02-22",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 27
+    },
+    {
+      "id": "trx-2024-28",
+      "tanggal": "2024-02-27",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 28
+    },
+    {
+      "id": "trx-2024-29",
+      "tanggal": "2024-03-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 29
+    },
+    {
+      "id": "trx-2024-30",
+      "tanggal": "2024-03-04",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 30
+    },
+    {
+      "id": "trx-2024-31",
+      "tanggal": "2024-03-04",
+      "uraian": "Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 31
+    },
+    {
+      "id": "trx-2024-32",
+      "tanggal": "2024-03-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 32
+    },
+    {
+      "id": "trx-2024-33",
+      "tanggal": "2024-03-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 33
+    },
+    {
+      "id": "trx-2024-34",
+      "tanggal": "2024-03-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 34
+    },
+    {
+      "id": "trx-2024-35",
+      "tanggal": "2024-03-14",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 35
+    },
+    {
+      "id": "trx-2024-36",
+      "tanggal": "2024-03-18",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 36
+    },
+    {
+      "id": "trx-2024-37",
+      "tanggal": "2024-03-19",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 37
+    },
+    {
+      "id": "trx-2024-38",
+      "tanggal": "2024-03-24",
+      "uraian": "Spanduk HUT Kota Bekasi",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 75000,
+      "sumberBaris": 38
+    },
+    {
+      "id": "trx-2024-39",
+      "tanggal": "2024-03-30",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 39
+    },
+    {
+      "id": "trx-2024-40",
+      "tanggal": "2024-04-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 40
+    },
+    {
+      "id": "trx-2024-41",
+      "tanggal": "2024-04-04",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 41
+    },
+    {
+      "id": "trx-2024-42",
+      "tanggal": "2024-04-13",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 600000,
+      "sumberBaris": 42
+    },
+    {
+      "id": "trx-2024-43",
+      "tanggal": "2024-04-26",
+      "uraian": "Bayar Bibit Cabe untuk ketahanan pangan warga 02",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 1250000,
+      "sumberBaris": 43
+    },
+    {
+      "id": "trx-2024-44",
+      "tanggal": "2024-05-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 44
+    },
+    {
+      "id": "trx-2024-45",
+      "tanggal": "2024-05-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 45
+    },
+    {
+      "id": "trx-2024-46",
+      "tanggal": "2024-05-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 46
+    },
+    {
+      "id": "trx-2024-47",
+      "tanggal": "2024-05-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 840000,
+      "sumberBaris": 47
+    },
+    {
+      "id": "trx-2024-48",
+      "tanggal": "2024-05-04",
+      "uraian": "Papan nama Jalan Ondoy",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 150000,
+      "sumberBaris": 48
+    },
+    {
+      "id": "trx-2024-49",
+      "tanggal": "2024-05-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 49
+    },
+    {
+      "id": "trx-2024-50",
+      "tanggal": "2024-05-06",
+      "uraian": "Obat Fogging",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 322700,
+      "sumberBaris": 50
+    },
+    {
+      "id": "trx-2024-51",
+      "tanggal": "2024-05-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 51
+    },
+    {
+      "id": "trx-2024-52",
+      "tanggal": "2024-05-09",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 52
+    },
+    {
+      "id": "trx-2024-53",
+      "tanggal": "2024-05-10",
+      "uraian": "Bantuan sosial warga dan pemeliharaan CCTV",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 500000,
+      "sumberBaris": 53
+    },
+    {
+      "id": "trx-2024-54",
+      "tanggal": "2024-05-14",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 54
+    },
+    {
+      "id": "trx-2024-55",
+      "tanggal": "2024-05-16",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 120000,
+      "sumberBaris": 55
+    },
+    {
+      "id": "trx-2024-56",
+      "tanggal": "2024-05-16",
+      "uraian": "Tukang bersih2 Got Jl Ondoy",
+      "kategori": "Kebersihan",
+      "jenis": "keluar",
+      "nominal": 150000,
+      "sumberBaris": 56
+    },
+    {
+      "id": "trx-2024-57",
+      "tanggal": "2024-05-22",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 650000,
+      "sumberBaris": 57
+    },
+    {
+      "id": "trx-2024-58",
+      "tanggal": "2024-05-29",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 58
+    },
+    {
+      "id": "trx-2024-59",
+      "tanggal": "2024-06-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 59
+    },
+    {
+      "id": "trx-2024-60",
+      "tanggal": "2024-06-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 60
+    },
+    {
+      "id": "trx-2024-61",
+      "tanggal": "2024-06-05",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 61
+    },
+    {
+      "id": "trx-2024-62",
+      "tanggal": "2024-06-06",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 62
+    },
+    {
+      "id": "trx-2024-63",
+      "tanggal": "2024-06-12",
+      "uraian": "Operasional Posyandu Mei Juni",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 200000,
+      "sumberBaris": 63
+    },
+    {
+      "id": "trx-2024-64",
+      "tanggal": "2024-06-17",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 64
+    },
+    {
+      "id": "trx-2024-65",
+      "tanggal": "2024-06-23",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 65
+    },
+    {
+      "id": "trx-2024-66",
+      "tanggal": "2024-06-23",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 120000,
+      "sumberBaris": 66
+    },
+    {
+      "id": "trx-2024-67",
+      "tanggal": "2024-06-23",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 180000,
+      "sumberBaris": 67
+    },
+    {
+      "id": "trx-2024-68",
+      "tanggal": "2024-06-24",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 900000,
+      "sumberBaris": 68
+    },
+    {
+      "id": "trx-2024-69",
+      "tanggal": "2024-07-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 69
+    },
+    {
+      "id": "trx-2024-70",
+      "tanggal": "2024-07-08",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 70
+    },
+    {
+      "id": "trx-2024-71",
+      "tanggal": "2024-07-09",
+      "uraian": "Beli Alat cek Darah",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 202000,
+      "sumberBaris": 71
+    },
+    {
+      "id": "trx-2024-72",
+      "tanggal": "2024-07-10",
+      "uraian": "Beli Alat Tensimeter",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 362000,
+      "sumberBaris": 72
+    },
+    {
+      "id": "trx-2024-73",
+      "tanggal": "2024-07-12",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 73
+    },
+    {
+      "id": "trx-2024-74",
+      "tanggal": "2024-07-19",
+      "uraian": "Beli Strip Easy cek Darah",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 359000,
+      "sumberBaris": 74
+    },
+    {
+      "id": "trx-2024-75",
+      "tanggal": "2024-07-23",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 75
+    },
+    {
+      "id": "trx-2024-76",
+      "tanggal": "2024-07-24",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 76
+    },
+    {
+      "id": "trx-2024-77",
+      "tanggal": "2024-07-23",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 77
+    },
+    {
+      "id": "trx-2024-78",
+      "tanggal": "2024-07-28",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 78
+    },
+    {
+      "id": "trx-2024-79",
+      "tanggal": "2024-08-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 79
+    },
+    {
+      "id": "trx-2024-80",
+      "tanggal": "2024-08-02",
+      "uraian": "Beli Bendera Plastik dan umbul2",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 414700,
+      "sumberBaris": 80
+    },
+    {
+      "id": "trx-2024-81",
+      "tanggal": "2024-08-05",
+      "uraian": "Operasional Posyandu Juli Agustus",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 200000,
+      "sumberBaris": 81
+    },
+    {
+      "id": "trx-2024-82",
+      "tanggal": "2024-08-12",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 82
+    },
+    {
+      "id": "trx-2024-83",
+      "tanggal": "2024-08-16",
+      "uraian": "Beli beras hadiah lomba Pingpong",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 794000,
+      "sumberBaris": 83
+    },
+    {
+      "id": "trx-2024-84",
+      "tanggal": "2024-08-17",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 84
+    },
+    {
+      "id": "trx-2024-85",
+      "tanggal": "2024-08-22",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 85
+    },
+    {
+      "id": "trx-2024-86",
+      "tanggal": "2024-09-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 86
+    },
+    {
+      "id": "trx-2024-87",
+      "tanggal": "2024-09-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 87
+    },
+    {
+      "id": "trx-2024-88",
+      "tanggal": "2024-09-04",
+      "uraian": "Operasional Posyandu Sept 24",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 88
+    },
+    {
+      "id": "trx-2024-89",
+      "tanggal": "2024-09-04",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 89
+    },
+    {
+      "id": "trx-2024-90",
+      "tanggal": "2024-09-26",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 90
+    },
+    {
+      "id": "trx-2024-91",
+      "tanggal": "2024-09-28",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 91
+    },
+    {
+      "id": "trx-2024-92",
+      "tanggal": "2024-10-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 92
+    },
+    {
+      "id": "trx-2024-93",
+      "tanggal": "2024-10-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 93
+    },
+    {
+      "id": "trx-2024-94",
+      "tanggal": "2024-10-26",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 94
+    },
+    {
+      "id": "trx-2024-95",
+      "tanggal": "2024-10-29",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 95
+    },
+    {
+      "id": "trx-2024-96",
+      "tanggal": "2024-11-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 96
+    },
+    {
+      "id": "trx-2024-97",
+      "tanggal": "2024-11-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 97
+    },
+    {
+      "id": "trx-2024-98",
+      "tanggal": "2024-11-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 98
+    },
+    {
+      "id": "trx-2024-99",
+      "tanggal": "2024-11-04",
+      "uraian": "Bayar Posyandu dan PMI",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 99
+    },
+    {
+      "id": "trx-2024-100",
+      "tanggal": "2024-11-06",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 100
+    },
+    {
+      "id": "trx-2024-101",
+      "tanggal": "2024-11-07",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 902500,
+      "sumberBaris": 101
+    },
+    {
+      "id": "trx-2024-102",
+      "tanggal": "2024-11-24",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 102
+    },
+    {
+      "id": "trx-2024-103",
+      "tanggal": "2024-11-24",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 103
+    },
+    {
+      "id": "trx-2024-104",
+      "tanggal": "2024-11-26",
+      "uraian": "Bayar terpal dan Las Tenda",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 808000,
+      "sumberBaris": 104
+    },
+    {
+      "id": "trx-2024-105",
+      "tanggal": "2024-11-27",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 140000,
+      "sumberBaris": 105
+    },
+    {
+      "id": "trx-2024-106",
+      "tanggal": "2024-11-28",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 106
+    },
+    {
+      "id": "trx-2024-107",
+      "tanggal": "2024-11-28",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 107
+    },
+    {
+      "id": "trx-2024-108",
+      "tanggal": "2024-12-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 108
+    },
+    {
+      "id": "trx-2024-109",
+      "tanggal": "2024-12-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 109
+    },
+    {
+      "id": "trx-2024-110",
+      "tanggal": "2024-12-02",
+      "uraian": "Bayar Posyandu Desember 24",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 110
+    },
+    {
+      "id": "trx-2024-111",
+      "tanggal": "2024-12-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 111
+    },
+    {
+      "id": "trx-2024-112",
+      "tanggal": "2024-12-06",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 112
+    },
+    {
+      "id": "trx-2024-113",
+      "tanggal": "2024-12-06",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 113
+    },
+    {
+      "id": "trx-2024-114",
+      "tanggal": "2024-12-06",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 114
+    },
+    {
+      "id": "trx-2024-115",
+      "tanggal": "2024-12-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 115
+    },
+    {
+      "id": "trx-2024-116",
+      "tanggal": "2024-12-11",
+      "uraian": "Beli Mesin Rumput n sepatu boot",
+      "kategori": "Kebersihan",
+      "jenis": "keluar",
+      "nominal": 1588460,
+      "sumberBaris": 116
+    },
+    {
+      "id": "trx-2024-117",
+      "tanggal": "2024-12-28",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 117
+    },
+    {
+      "id": "trx-2024-118",
+      "tanggal": "2024-12-30",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 118
+    },
+    {
+      "id": "trx-2025-6",
+      "tanggal": "2025-01-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 6
+    },
+    {
+      "id": "trx-2025-7",
+      "tanggal": "2025-01-03",
+      "uraian": "Bantuan operasional RT",
+      "kategori": "Bantuan operasional",
+      "jenis": "masuk",
+      "nominal": 3000000,
+      "sumberBaris": 7
+    },
+    {
+      "id": "trx-2025-8",
+      "tanggal": "2025-01-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 8
+    },
+    {
+      "id": "trx-2025-9",
+      "tanggal": "2025-01-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 9
+    },
+    {
+      "id": "trx-2025-10",
+      "tanggal": "2025-01-15",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 10
+    },
+    {
+      "id": "trx-2025-11",
+      "tanggal": "2025-01-15",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 120000,
+      "sumberBaris": 11
+    },
+    {
+      "id": "trx-2025-12",
+      "tanggal": "2025-01-15",
+      "uraian": "Posyandu Jan 25",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 12
+    },
+    {
+      "id": "trx-2025-13",
+      "tanggal": "2025-01-15",
+      "uraian": "Cetak Kartu Iuran",
+      "kategori": "Administrasi",
+      "jenis": "keluar",
+      "nominal": 200000,
+      "sumberBaris": 13
+    },
+    {
+      "id": "trx-2025-14",
+      "tanggal": "2025-01-18",
+      "uraian": "Rompi Pengurus",
+      "kategori": "Administrasi",
+      "jenis": "keluar",
+      "nominal": 1500000,
+      "sumberBaris": 14
+    },
+    {
+      "id": "trx-2025-15",
+      "tanggal": "2025-01-24",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 15
+    },
+    {
+      "id": "trx-2025-16",
+      "tanggal": "2025-01-26",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 16
+    },
+    {
+      "id": "trx-2025-17",
+      "tanggal": "2025-01-26",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 600000,
+      "sumberBaris": 17
+    },
+    {
+      "id": "trx-2025-18",
+      "tanggal": "2025-01-27",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 18
+    },
+    {
+      "id": "trx-2025-19",
+      "tanggal": "2025-01-29",
+      "uraian": "Sumbangan kegiatan dan lingkungan RT",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 19
+    },
+    {
+      "id": "trx-2025-20",
+      "tanggal": "2025-01-29",
+      "uraian": "Konsumsi Kerja Bakti",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 299000,
+      "sumberBaris": 20
+    },
+    {
+      "id": "trx-2025-21",
+      "tanggal": "2025-01-31",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 480000,
+      "sumberBaris": 21
+    },
+    {
+      "id": "trx-2025-22",
+      "tanggal": "2025-02-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 22
+    },
+    {
+      "id": "trx-2025-23",
+      "tanggal": "2025-02-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 23
+    },
+    {
+      "id": "trx-2025-24",
+      "tanggal": "2025-02-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 640000,
+      "sumberBaris": 24
+    },
+    {
+      "id": "trx-2025-25",
+      "tanggal": "2025-02-03",
+      "uraian": "Posyandu Februari 25",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 25
+    },
+    {
+      "id": "trx-2025-26",
+      "tanggal": "2025-02-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 26
+    },
+    {
+      "id": "trx-2025-27",
+      "tanggal": "2025-02-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 27
+    },
+    {
+      "id": "trx-2025-28",
+      "tanggal": "2025-02-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 195000,
+      "sumberBaris": 28
+    },
+    {
+      "id": "trx-2025-29",
+      "tanggal": "2025-02-15",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1102500,
+      "sumberBaris": 29
+    },
+    {
+      "id": "trx-2025-30",
+      "tanggal": "2025-02-15",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 30
+    },
+    {
+      "id": "trx-2025-31",
+      "tanggal": "2025-02-26",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 31
+    },
+    {
+      "id": "trx-2025-32",
+      "tanggal": "2025-02-27",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 32
+    },
+    {
+      "id": "trx-2025-33",
+      "tanggal": "2025-02-28",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 33
+    },
+    {
+      "id": "trx-2025-34",
+      "tanggal": "2025-02-28",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 2000000,
+      "sumberBaris": 34
+    },
+    {
+      "id": "trx-2025-35",
+      "tanggal": "2025-02-28",
+      "uraian": "Upah Keliling Iuran",
+      "kategori": "Administrasi",
+      "jenis": "keluar",
+      "nominal": 500000,
+      "sumberBaris": 35
+    },
+    {
+      "id": "trx-2025-36",
+      "tanggal": "2025-03-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 36
+    },
+    {
+      "id": "trx-2025-37",
+      "tanggal": "2025-03-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 940000,
+      "sumberBaris": 37
+    },
+    {
+      "id": "trx-2025-38",
+      "tanggal": "2025-03-02",
+      "uraian": "Posyandu Maret 25",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 38
+    },
+    {
+      "id": "trx-2025-39",
+      "tanggal": "2025-03-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 39
+    },
+    {
+      "id": "trx-2025-40",
+      "tanggal": "2025-03-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 40
+    },
+    {
+      "id": "trx-2025-41",
+      "tanggal": "2025-03-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 41
+    },
+    {
+      "id": "trx-2025-42",
+      "tanggal": "2025-03-21",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 42
+    },
+    {
+      "id": "trx-2025-43",
+      "tanggal": "2025-03-28",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 43
+    },
+    {
+      "id": "trx-2025-44",
+      "tanggal": "2025-03-29",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 2060000,
+      "sumberBaris": 44
+    },
+    {
+      "id": "trx-2025-45",
+      "tanggal": "2025-04-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 45
+    },
+    {
+      "id": "trx-2025-46",
+      "tanggal": "2025-04-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 46
+    },
+    {
+      "id": "trx-2025-47",
+      "tanggal": "2025-04-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 47
+    },
+    {
+      "id": "trx-2025-48",
+      "tanggal": "2025-04-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 48
+    },
+    {
+      "id": "trx-2025-49",
+      "tanggal": "2025-04-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 49
+    },
+    {
+      "id": "trx-2025-50",
+      "tanggal": "2025-04-18",
+      "uraian": "Bantuan sosial warga dan kegiatan posyandu",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 400000,
+      "sumberBaris": 50
+    },
+    {
+      "id": "trx-2025-51",
+      "tanggal": "2025-04-27",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 51
+    },
+    {
+      "id": "trx-2025-52",
+      "tanggal": "2025-05-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 52
+    },
+    {
+      "id": "trx-2025-53",
+      "tanggal": "2025-05-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 53
+    },
+    {
+      "id": "trx-2025-54",
+      "tanggal": "2025-05-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 54
+    },
+    {
+      "id": "trx-2025-55",
+      "tanggal": "2025-05-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 55
+    },
+    {
+      "id": "trx-2025-56",
+      "tanggal": "2025-05-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 56
+    },
+    {
+      "id": "trx-2025-57",
+      "tanggal": "2025-05-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 57
+    },
+    {
+      "id": "trx-2025-58",
+      "tanggal": "2025-05-05",
+      "uraian": "Posyandu Mei 25",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 58
+    },
+    {
+      "id": "trx-2025-59",
+      "tanggal": "2025-05-05",
+      "uraian": "Tanggul Jalan Ondoy",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 59
+    },
+    {
+      "id": "trx-2025-60",
+      "tanggal": "2025-05-06",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 2680000,
+      "sumberBaris": 60
+    },
+    {
+      "id": "trx-2025-61",
+      "tanggal": "2025-05-06",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 61
+    },
+    {
+      "id": "trx-2025-62",
+      "tanggal": "2025-05-06",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 62
+    },
+    {
+      "id": "trx-2025-63",
+      "tanggal": "2025-05-11",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 63
+    },
+    {
+      "id": "trx-2025-64",
+      "tanggal": "2025-05-13",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 64
+    },
+    {
+      "id": "trx-2025-65",
+      "tanggal": "2025-05-29",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 160000,
+      "sumberBaris": 65
+    },
+    {
+      "id": "trx-2025-66",
+      "tanggal": "2025-05-31",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 66
+    },
+    {
+      "id": "trx-2025-67",
+      "tanggal": "2025-05-31",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 67
+    },
+    {
+      "id": "trx-2025-68",
+      "tanggal": "2025-05-31",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 68
+    },
+    {
+      "id": "trx-2025-69",
+      "tanggal": "2025-06-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 69
+    },
+    {
+      "id": "trx-2025-70",
+      "tanggal": "2025-06-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 900000,
+      "sumberBaris": 70
+    },
+    {
+      "id": "trx-2025-71",
+      "tanggal": "2025-06-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 71
+    },
+    {
+      "id": "trx-2025-72",
+      "tanggal": "2025-06-03",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 72
+    },
+    {
+      "id": "trx-2025-73",
+      "tanggal": "2025-06-03",
+      "uraian": "Posyandu Juni 25",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 73
+    },
+    {
+      "id": "trx-2025-74",
+      "tanggal": "2025-06-08",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 340000,
+      "sumberBaris": 74
+    },
+    {
+      "id": "trx-2025-75",
+      "tanggal": "2025-06-08",
+      "uraian": "Penerimaan pemanfaatan inventaris RT",
+      "kategori": "Pemanfaatan inventaris",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 75
+    },
+    {
+      "id": "trx-2025-76",
+      "tanggal": "2025-06-08",
+      "uraian": "Penerimaan pemanfaatan inventaris RT",
+      "kategori": "Pemanfaatan inventaris",
+      "jenis": "masuk",
+      "nominal": 50000,
+      "sumberBaris": 76
+    },
+    {
+      "id": "trx-2025-77",
+      "tanggal": "2025-06-17",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 652500,
+      "sumberBaris": 77
+    },
+    {
+      "id": "trx-2025-78",
+      "tanggal": "2025-06-30",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 78
+    },
+    {
+      "id": "trx-2025-79",
+      "tanggal": "2025-07-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 79
+    },
+    {
+      "id": "trx-2025-80",
+      "tanggal": "2025-07-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 80
+    },
+    {
+      "id": "trx-2025-81",
+      "tanggal": "2025-07-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 81
+    },
+    {
+      "id": "trx-2025-82",
+      "tanggal": "2025-07-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 740000,
+      "sumberBaris": 82
+    },
+    {
+      "id": "trx-2025-83",
+      "tanggal": "2025-07-07",
+      "uraian": "Penerimaan pemanfaatan inventaris RT",
+      "kategori": "Pemanfaatan inventaris",
+      "jenis": "masuk",
+      "nominal": 350000,
+      "sumberBaris": 83
+    },
+    {
+      "id": "trx-2025-84",
+      "tanggal": "2025-07-07",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 84
+    },
+    {
+      "id": "trx-2025-85",
+      "tanggal": "2025-07-07",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 85
+    },
+    {
+      "id": "trx-2025-86",
+      "tanggal": "2025-07-07",
+      "uraian": "Posyandu Juli 25",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 86
+    },
+    {
+      "id": "trx-2025-87",
+      "tanggal": "2025-07-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 87
+    },
+    {
+      "id": "trx-2025-88",
+      "tanggal": "2025-07-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 88
+    },
+    {
+      "id": "trx-2025-89",
+      "tanggal": "2025-07-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 89
+    },
+    {
+      "id": "trx-2025-90",
+      "tanggal": "2025-07-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 90
+    },
+    {
+      "id": "trx-2025-91",
+      "tanggal": "2025-07-14",
+      "uraian": "Bantuan operasional RT",
+      "kategori": "Bantuan operasional",
+      "jenis": "masuk",
+      "nominal": 1500000,
+      "sumberBaris": 91
+    },
+    {
+      "id": "trx-2025-92",
+      "tanggal": "2025-07-24",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 92
+    },
+    {
+      "id": "trx-2025-93",
+      "tanggal": "2025-08-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 93
+    },
+    {
+      "id": "trx-2025-94",
+      "tanggal": "2025-08-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 94
+    },
+    {
+      "id": "trx-2025-95",
+      "tanggal": "2025-08-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 95
+    },
+    {
+      "id": "trx-2025-96",
+      "tanggal": "2025-08-03",
+      "uraian": "Beli APAR 3 kg (2 tabung)",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 351600,
+      "sumberBaris": 96
+    },
+    {
+      "id": "trx-2025-97",
+      "tanggal": "2025-08-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 840000,
+      "sumberBaris": 97
+    },
+    {
+      "id": "trx-2025-98",
+      "tanggal": "2025-08-02",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 98
+    },
+    {
+      "id": "trx-2025-99",
+      "tanggal": "2025-08-02",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 99
+    },
+    {
+      "id": "trx-2025-100",
+      "tanggal": "2025-08-02",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 100
+    },
+    {
+      "id": "trx-2025-101",
+      "tanggal": "2025-08-02",
+      "uraian": "Posyandu bulan Agustus",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 101
+    },
+    {
+      "id": "trx-2025-102",
+      "tanggal": "2025-08-08",
+      "uraian": "Konsumsi Rapat persiapan HUT RI",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 151000,
+      "sumberBaris": 102
+    },
+    {
+      "id": "trx-2025-103",
+      "tanggal": "2025-08-12",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 103
+    },
+    {
+      "id": "trx-2025-104",
+      "tanggal": "2025-08-12",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 160000,
+      "sumberBaris": 104
+    },
+    {
+      "id": "trx-2025-105",
+      "tanggal": "2025-08-13",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 300000,
+      "sumberBaris": 105
+    },
+    {
+      "id": "trx-2025-106",
+      "tanggal": "2025-08-15",
+      "uraian": "Beli tes strip cek darah",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 664216,
+      "sumberBaris": 106
+    },
+    {
+      "id": "trx-2025-107",
+      "tanggal": "2025-08-16",
+      "uraian": "Sumbangan kegiatan HUT RI",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 107
+    },
+    {
+      "id": "trx-2025-108",
+      "tanggal": "2025-08-18",
+      "uraian": "Lomba 17an",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 509000,
+      "sumberBaris": 108
+    },
+    {
+      "id": "trx-2025-109",
+      "tanggal": "2025-08-30",
+      "uraian": "Kegiatan Tropeo RW",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 1520000,
+      "sumberBaris": 109
+    },
+    {
+      "id": "trx-2025-110",
+      "tanggal": "2025-08-31",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 110
+    },
+    {
+      "id": "trx-2025-111",
+      "tanggal": "2025-09-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 111
+    },
+    {
+      "id": "trx-2025-112",
+      "tanggal": "2025-09-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 112
+    },
+    {
+      "id": "trx-2025-113",
+      "tanggal": "2025-09-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 113
+    },
+    {
+      "id": "trx-2025-114",
+      "tanggal": "2025-09-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 114
+    },
+    {
+      "id": "trx-2025-115",
+      "tanggal": "2025-09-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 115
+    },
+    {
+      "id": "trx-2025-116",
+      "tanggal": "2025-09-02",
+      "uraian": "Posyandu bulan September 25",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 116
+    },
+    {
+      "id": "trx-2025-117",
+      "tanggal": "2025-08-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 117
+    },
+    {
+      "id": "trx-2025-118",
+      "tanggal": "2025-09-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 880000,
+      "sumberBaris": 118
+    },
+    {
+      "id": "trx-2025-119",
+      "tanggal": "2025-09-07",
+      "uraian": "Penerimaan kas lainnya",
+      "kategori": "Pemasukan lainnya",
+      "jenis": "masuk",
+      "nominal": 125000,
+      "sumberBaris": 119
+    },
+    {
+      "id": "trx-2025-120",
+      "tanggal": "2025-09-07",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 120
+    },
+    {
+      "id": "trx-2025-121",
+      "tanggal": "2025-09-07",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 121
+    },
+    {
+      "id": "trx-2025-122",
+      "tanggal": "2025-09-07",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 200000,
+      "sumberBaris": 122
+    },
+    {
+      "id": "trx-2025-123",
+      "tanggal": "2025-09-21",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 123
+    },
+    {
+      "id": "trx-2025-124",
+      "tanggal": "2025-09-26",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 124
+    },
+    {
+      "id": "trx-2025-125",
+      "tanggal": "2025-09-30",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 125
+    },
+    {
+      "id": "trx-2025-126",
+      "tanggal": "2025-10-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 126
+    },
+    {
+      "id": "trx-2025-127",
+      "tanggal": "2025-10-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 127
+    },
+    {
+      "id": "trx-2025-128",
+      "tanggal": "2025-10-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 128
+    },
+    {
+      "id": "trx-2025-129",
+      "tanggal": "2025-10-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 780000,
+      "sumberBaris": 129
+    },
+    {
+      "id": "trx-2025-130",
+      "tanggal": "2025-10-10",
+      "uraian": "Obat Fogging",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 178125,
+      "sumberBaris": 130
+    },
+    {
+      "id": "trx-2025-131",
+      "tanggal": "2025-10-12",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 320000,
+      "sumberBaris": 131
+    },
+    {
+      "id": "trx-2025-132",
+      "tanggal": "2025-10-12",
+      "uraian": "Penerimaan pemanfaatan inventaris RT",
+      "kategori": "Pemanfaatan inventaris",
+      "jenis": "masuk",
+      "nominal": 150000,
+      "sumberBaris": 132
+    },
+    {
+      "id": "trx-2025-133",
+      "tanggal": "2025-10-12",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1100000,
+      "sumberBaris": 133
+    },
+    {
+      "id": "trx-2025-134",
+      "tanggal": "2025-10-12",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 134
+    },
+    {
+      "id": "trx-2025-135",
+      "tanggal": "2025-10-21",
+      "uraian": "Bantuan operasional RT",
+      "kategori": "Bantuan operasional",
+      "jenis": "masuk",
+      "nominal": 3200000,
+      "sumberBaris": 135
+    },
+    {
+      "id": "trx-2025-136",
+      "tanggal": "2025-10-23",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 136
+    },
+    {
+      "id": "trx-2025-137",
+      "tanggal": "2025-10-23",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 137
+    },
+    {
+      "id": "trx-2025-138",
+      "tanggal": "2025-10-26",
+      "uraian": "Kegiatan Fogging lingkungan RT",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 469000,
+      "sumberBaris": 138
+    },
+    {
+      "id": "trx-2025-139",
+      "tanggal": "2025-11-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 660000,
+      "sumberBaris": 139
+    },
+    {
+      "id": "trx-2025-140",
+      "tanggal": "2025-11-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 140
+    },
+    {
+      "id": "trx-2025-141",
+      "tanggal": "2025-11-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 141
+    },
+    {
+      "id": "trx-2025-142",
+      "tanggal": "2025-11-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 142
+    },
+    {
+      "id": "trx-2025-143",
+      "tanggal": "2025-11-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 143
+    },
+    {
+      "id": "trx-2025-144",
+      "tanggal": "2025-11-02",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 144
+    },
+    {
+      "id": "trx-2025-145",
+      "tanggal": "2025-11-02",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 145
+    },
+    {
+      "id": "trx-2025-146",
+      "tanggal": "2025-11-08",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 340000,
+      "sumberBaris": 146
+    },
+    {
+      "id": "trx-2025-147",
+      "tanggal": "2025-11-08",
+      "uraian": "Posyandu 2 bulan",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 200000,
+      "sumberBaris": 147
+    },
+    {
+      "id": "trx-2025-148",
+      "tanggal": "2025-11-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 148
+    },
+    {
+      "id": "trx-2025-149",
+      "tanggal": "2025-11-10",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 149
+    },
+    {
+      "id": "trx-2025-150",
+      "tanggal": "2025-11-28",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 80000,
+      "sumberBaris": 150
+    },
+    {
+      "id": "trx-2025-151",
+      "tanggal": "2025-11-30",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 151
+    },
+    {
+      "id": "trx-2025-152",
+      "tanggal": "2025-12-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 152
+    },
+    {
+      "id": "trx-2025-153",
+      "tanggal": "2025-12-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 153
+    },
+    {
+      "id": "trx-2025-154",
+      "tanggal": "2025-12-01",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 154
+    },
+    {
+      "id": "trx-2025-155",
+      "tanggal": "2025-12-02",
+      "uraian": "Posyandu Des 25",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 155
+    },
+    {
+      "id": "trx-2025-156",
+      "tanggal": "2025-12-02",
+      "uraian": "Beli Net Pingpong",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 152050,
+      "sumberBaris": 156
+    },
+    {
+      "id": "trx-2025-157",
+      "tanggal": "2025-12-06",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 480000,
+      "sumberBaris": 157
+    },
+    {
+      "id": "trx-2025-158",
+      "tanggal": "2025-12-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 158
+    },
+    {
+      "id": "trx-2025-159",
+      "tanggal": "2025-12-11",
+      "uraian": "Perbaikan Jl Ondoy",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 159
+    },
+    {
+      "id": "trx-2025-160",
+      "tanggal": "2025-12-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 640000,
+      "sumberBaris": 160
+    },
+    {
+      "id": "trx-2025-161",
+      "tanggal": "2025-12-14",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 80000,
+      "sumberBaris": 161
+    },
+    {
+      "id": "trx-2025-162",
+      "tanggal": "2025-12-15",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 162
+    },
+    {
+      "id": "trx-2025-163",
+      "tanggal": "2025-12-15",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 163
+    },
+    {
+      "id": "trx-2025-164",
+      "tanggal": "2025-12-15",
+      "uraian": "Beli Terpal Penutup Kursi",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 400000,
+      "sumberBaris": 164
+    },
+    {
+      "id": "trx-2025-165",
+      "tanggal": "2025-12-31",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 165
+    },
+    {
+      "id": "trx-2026-6",
+      "tanggal": "2026-01-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 6
+    },
+    {
+      "id": "trx-2026-7",
+      "tanggal": "2026-01-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 7
+    },
+    {
+      "id": "trx-2026-8",
+      "tanggal": "2026-01-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 8
+    },
+    {
+      "id": "trx-2026-9",
+      "tanggal": "2026-01-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 1050000,
+      "sumberBaris": 9
+    },
+    {
+      "id": "trx-2026-10",
+      "tanggal": "2026-01-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 10
+    },
+    {
+      "id": "trx-2026-11",
+      "tanggal": "2026-01-11",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 520000,
+      "sumberBaris": 11
+    },
+    {
+      "id": "trx-2026-12",
+      "tanggal": "2026-01-14",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 12
+    },
+    {
+      "id": "trx-2026-13",
+      "tanggal": "2026-01-14",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 13
+    },
+    {
+      "id": "trx-2026-14",
+      "tanggal": "2026-01-14",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 14
+    },
+    {
+      "id": "trx-2026-15",
+      "tanggal": "2026-01-14",
+      "uraian": "Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 15
+    },
+    {
+      "id": "trx-2026-16",
+      "tanggal": "2026-01-22",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 16
+    },
+    {
+      "id": "trx-2026-17",
+      "tanggal": "2026-01-30",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 17
+    },
+    {
+      "id": "trx-2026-18",
+      "tanggal": "2026-01-31",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 18
+    },
+    {
+      "id": "trx-2026-19",
+      "tanggal": "2026-02-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 19
+    },
+    {
+      "id": "trx-2026-20",
+      "tanggal": "2026-02-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 20
+    },
+    {
+      "id": "trx-2026-21",
+      "tanggal": "2026-02-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 760000,
+      "sumberBaris": 21
+    },
+    {
+      "id": "trx-2026-22",
+      "tanggal": "2026-02-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 22
+    },
+    {
+      "id": "trx-2026-23",
+      "tanggal": "2026-02-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 23
+    },
+    {
+      "id": "trx-2026-24",
+      "tanggal": "2026-02-08",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 340000,
+      "sumberBaris": 24
+    },
+    {
+      "id": "trx-2026-25",
+      "tanggal": "2026-02-08",
+      "uraian": "Penerimaan pemanfaatan inventaris RT",
+      "kategori": "Pemanfaatan inventaris",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 25
+    },
+    {
+      "id": "trx-2026-26",
+      "tanggal": "2026-02-08",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 26
+    },
+    {
+      "id": "trx-2026-27",
+      "tanggal": "2026-02-08",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 27
+    },
+    {
+      "id": "trx-2026-28",
+      "tanggal": "2026-02-08",
+      "uraian": "Ongkos Tebang Pohon",
+      "kategori": "Kebersihan",
+      "jenis": "keluar",
+      "nominal": 200000,
+      "sumberBaris": 28
+    },
+    {
+      "id": "trx-2026-29",
+      "tanggal": "2026-02-08",
+      "uraian": "Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 29
+    },
+    {
+      "id": "trx-2026-30",
+      "tanggal": "2026-02-17",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 120000,
+      "sumberBaris": 30
+    },
+    {
+      "id": "trx-2026-31",
+      "tanggal": "2026-02-25",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 31
+    },
+    {
+      "id": "trx-2026-32",
+      "tanggal": "2026-03-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 32
+    },
+    {
+      "id": "trx-2026-33",
+      "tanggal": "2026-03-02",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 33
+    },
+    {
+      "id": "trx-2026-34",
+      "tanggal": "2026-03-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 34
+    },
+    {
+      "id": "trx-2026-35",
+      "tanggal": "2026-03-09",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 35
+    },
+    {
+      "id": "trx-2026-36",
+      "tanggal": "2026-03-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 36
+    },
+    {
+      "id": "trx-2026-37",
+      "tanggal": "2026-03-12",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 37
+    },
+    {
+      "id": "trx-2026-38",
+      "tanggal": "2026-03-16",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 38
+    },
+    {
+      "id": "trx-2026-39",
+      "tanggal": "2026-03-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 39
+    },
+    {
+      "id": "trx-2026-40",
+      "tanggal": "2026-03-08",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 540000,
+      "sumberBaris": 40
+    },
+    {
+      "id": "trx-2026-41",
+      "tanggal": "2026-03-01",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 41
+    },
+    {
+      "id": "trx-2026-42",
+      "tanggal": "2026-03-01",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 42
+    },
+    {
+      "id": "trx-2026-43",
+      "tanggal": "2026-03-01",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 43
+    },
+    {
+      "id": "trx-2026-44",
+      "tanggal": "2026-04-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 44
+    },
+    {
+      "id": "trx-2026-45",
+      "tanggal": "2026-04-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 45
+    },
+    {
+      "id": "trx-2026-46",
+      "tanggal": "2026-04-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 920000,
+      "sumberBaris": 46
+    },
+    {
+      "id": "trx-2026-47",
+      "tanggal": "2026-04-12",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 47
+    },
+    {
+      "id": "trx-2026-48",
+      "tanggal": "2026-04-12",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 48
+    },
+    {
+      "id": "trx-2026-49",
+      "tanggal": "2026-04-12",
+      "uraian": "Penerimaan pemanfaatan inventaris RT",
+      "kategori": "Pemanfaatan inventaris",
+      "jenis": "masuk",
+      "nominal": 150000,
+      "sumberBaris": 49
+    },
+    {
+      "id": "trx-2026-50",
+      "tanggal": "2026-04-01",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 50
+    },
+    {
+      "id": "trx-2026-51",
+      "tanggal": "2026-04-01",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 51
+    },
+    {
+      "id": "trx-2026-52",
+      "tanggal": "2026-04-12",
+      "uraian": "Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 52
+    },
+    {
+      "id": "trx-2026-53",
+      "tanggal": "2026-04-12",
+      "uraian": "Bensin dan Cuci Baktor",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 80000,
+      "sumberBaris": 53
+    },
+    {
+      "id": "trx-2026-54",
+      "tanggal": "2026-04-24",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 54
+    },
+    {
+      "id": "trx-2026-55",
+      "tanggal": "2026-04-27",
+      "uraian": "Bantuan sosial warga",
+      "kategori": "Sosial",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 55
+    },
+    {
+      "id": "trx-2026-56",
+      "tanggal": "2026-05-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 56
+    },
+    {
+      "id": "trx-2026-57",
+      "tanggal": "2026-05-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 57
+    },
+    {
+      "id": "trx-2026-58",
+      "tanggal": "2026-05-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 58
+    },
+    {
+      "id": "trx-2026-59",
+      "tanggal": "2026-05-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 59
+    },
+    {
+      "id": "trx-2026-60",
+      "tanggal": "2026-05-02",
+      "uraian": "Perbaikan lampu Jalan Gg Ondoy",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 300000,
+      "sumberBaris": 60
+    },
+    {
+      "id": "trx-2026-61",
+      "tanggal": "2026-05-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 640000,
+      "sumberBaris": 61
+    },
+    {
+      "id": "trx-2026-62",
+      "tanggal": "2026-05-10",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 460000,
+      "sumberBaris": 62
+    },
+    {
+      "id": "trx-2026-63",
+      "tanggal": "2026-05-10",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 63
+    },
+    {
+      "id": "trx-2026-64",
+      "tanggal": "2026-05-10",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 64
+    },
+    {
+      "id": "trx-2026-65",
+      "tanggal": "2026-05-10",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 65
+    },
+    {
+      "id": "trx-2026-66",
+      "tanggal": "2026-05-10",
+      "uraian": "Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 66
+    },
+    {
+      "id": "trx-2026-67",
+      "tanggal": "2026-05-30",
+      "uraian": "Sumbangan kegiatan dan lingkungan RT",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 500000,
+      "sumberBaris": 67
+    },
+    {
+      "id": "trx-2026-68",
+      "tanggal": "2026-06-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 68
+    },
+    {
+      "id": "trx-2026-69",
+      "tanggal": "2026-06-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 69
+    },
+    {
+      "id": "trx-2026-70",
+      "tanggal": "2026-06-01",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 70
+    },
+    {
+      "id": "trx-2026-71",
+      "tanggal": "2026-06-07",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 640000,
+      "sumberBaris": 71
+    },
+    {
+      "id": "trx-2026-72",
+      "tanggal": "2026-06-14",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 72
+    },
+    {
+      "id": "trx-2026-73",
+      "tanggal": "2026-06-14",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 73
+    },
+    {
+      "id": "trx-2026-74",
+      "tanggal": "2026-06-14",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1000000,
+      "sumberBaris": 74
+    },
+    {
+      "id": "trx-2026-75",
+      "tanggal": "2026-07-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 75
+    },
+    {
+      "id": "trx-2026-76",
+      "tanggal": "2026-07-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 76
+    },
+    {
+      "id": "trx-2026-77",
+      "tanggal": "2026-07-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 77
+    },
+    {
+      "id": "trx-2026-78",
+      "tanggal": "2026-07-01",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 78
+    },
+    {
+      "id": "trx-2026-79",
+      "tanggal": "2026-07-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 560000,
+      "sumberBaris": 79
+    },
+    {
+      "id": "trx-2026-80",
+      "tanggal": "2026-07-11",
+      "uraian": "Penerimaan pemanfaatan inventaris RT",
+      "kategori": "Pemanfaatan inventaris",
+      "jenis": "masuk",
+      "nominal": 50000,
+      "sumberBaris": 80
+    },
+    {
+      "id": "trx-2026-81",
+      "tanggal": "2026-07-12",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 260000,
+      "sumberBaris": 81
+    },
+    {
+      "id": "trx-2026-82",
+      "tanggal": "2026-07-12",
+      "uraian": "Penerimaan pemanfaatan inventaris RT",
+      "kategori": "Pemanfaatan inventaris",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 82
+    },
+    {
+      "id": "trx-2026-83",
+      "tanggal": "2026-07-12",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 83
+    },
+    {
+      "id": "trx-2026-84",
+      "tanggal": "2026-07-12",
+      "uraian": "Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 84
+    },
+    {
+      "id": "trx-2026-85",
+      "tanggal": "2026-07-25",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 85
+    },
+    {
+      "id": "trx-2026-86",
+      "tanggal": "2026-08-03",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 86
+    },
+    {
+      "id": "trx-2026-87",
+      "tanggal": "2026-08-05",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 87
+    },
+    {
+      "id": "trx-2026-88",
+      "tanggal": "2026-08-11",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 100000,
+      "sumberBaris": 88
+    },
+    {
+      "id": "trx-2026-89",
+      "tanggal": "2026-08-11",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 60000,
+      "sumberBaris": 89
+    },
+    {
+      "id": "trx-2026-90",
+      "tanggal": "2026-08-11",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 660000,
+      "sumberBaris": 90
+    },
+    {
+      "id": "trx-2026-91",
+      "tanggal": "2026-08-11",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 91
+    },
+    {
+      "id": "trx-2026-92",
+      "tanggal": "2026-08-11",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 92
+    },
+    {
+      "id": "trx-2026-93",
+      "tanggal": "2026-08-11",
+      "uraian": "Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 93
+    },
+    {
+      "id": "trx-2026-94",
+      "tanggal": "2026-08-13",
+      "uraian": "Sumbangan kegiatan HUT RI",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 50000,
+      "sumberBaris": 94
+    },
+    {
+      "id": "trx-2026-95",
+      "tanggal": "2026-08-14",
+      "uraian": "Sumbangan kegiatan HUT RI",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 50000,
+      "sumberBaris": 95
+    },
+    {
+      "id": "trx-2026-96",
+      "tanggal": "2026-08-15",
+      "uraian": "Sumbangan kegiatan HUT RI",
+      "kategori": "Donasi",
+      "jenis": "masuk",
+      "nominal": 250000,
+      "sumberBaris": 96
+    },
+    {
+      "id": "trx-2026-97",
+      "tanggal": "2026-08-15",
+      "uraian": "Penyaluran dana kegiatan HUT RI",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 352500,
+      "sumberBaris": 97
+    },
+    {
+      "id": "trx-2026-98",
+      "tanggal": "2026-08-28",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 98
+    },
+    {
+      "id": "trx-2026-99",
+      "tanggal": "2026-08-29",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 220000,
+      "sumberBaris": 99
+    },
+    {
+      "id": "trx-2026-100",
+      "tanggal": "2026-09-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 100
+    },
+    {
+      "id": "trx-2026-101",
+      "tanggal": "2026-09-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 101
+    },
+    {
+      "id": "trx-2026-102",
+      "tanggal": "2026-09-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 102
+    },
+    {
+      "id": "trx-2026-103",
+      "tanggal": "2026-09-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 240000,
+      "sumberBaris": 103
+    },
+    {
+      "id": "trx-2026-104",
+      "tanggal": "2026-09-14",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 620000,
+      "sumberBaris": 104
+    },
+    {
+      "id": "trx-2026-105",
+      "tanggal": "2026-09-14",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 280000,
+      "sumberBaris": 105
+    },
+    {
+      "id": "trx-2026-106",
+      "tanggal": "2026-09-14",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 106
+    },
+    {
+      "id": "trx-2026-107",
+      "tanggal": "2026-09-14",
+      "uraian": "Strip cek kesehatan (tercatat sebagai pemasukan)",
+      "kategori": "Kesehatan",
+      "jenis": "masuk",
+      "nominal": 750000,
+      "sumberBaris": 107
+    },
+    {
+      "id": "trx-2026-108",
+      "tanggal": "2026-09-14",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 108
+    },
+    {
+      "id": "trx-2026-109",
+      "tanggal": "2026-09-14",
+      "uraian": "Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 200000,
+      "sumberBaris": 109
+    },
+    {
+      "id": "trx-2026-110",
+      "tanggal": "2026-09-14",
+      "uraian": "Bendera segitiga + Pasang",
+      "kategori": "Kegiatan warga",
+      "jenis": "keluar",
+      "nominal": 207000,
+      "sumberBaris": 110
+    },
+    {
+      "id": "trx-2026-111",
+      "tanggal": "2026-09-15",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 40000,
+      "sumberBaris": 111
+    },
+    {
+      "id": "trx-2026-112",
+      "tanggal": "2026-10-01",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 20000,
+      "sumberBaris": 112
+    },
+    {
+      "id": "trx-2026-113",
+      "tanggal": "2026-10-04",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 640000,
+      "sumberBaris": 113
+    },
+    {
+      "id": "trx-2026-114",
+      "tanggal": "2026-10-11",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 114
+    },
+    {
+      "id": "trx-2026-115",
+      "tanggal": "2026-10-11",
+      "uraian": "Kontribusi pengelolaan sampah",
+      "kategori": "Kontribusi sampah",
+      "jenis": "masuk",
+      "nominal": 200000,
+      "sumberBaris": 115
+    },
+    {
+      "id": "trx-2026-116",
+      "tanggal": "2026-10-11",
+      "uraian": "Honor petugas keamanan",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 1200000,
+      "sumberBaris": 116
+    },
+    {
+      "id": "trx-2026-117",
+      "tanggal": "2026-10-11",
+      "uraian": "Posyandu",
+      "kategori": "Kesehatan",
+      "jenis": "keluar",
+      "nominal": 100000,
+      "sumberBaris": 117
+    },
+    {
+      "id": "trx-2026-118",
+      "tanggal": "2026-10-18",
+      "uraian": "Kunjungan Studi Banding RT 08 Malaka Duren sawit",
+      "kategori": "Fasilitas & operasional",
+      "jenis": "keluar",
+      "nominal": 98000,
+      "sumberBaris": 118
+    },
+    {
+      "id": "trx-2026-119",
+      "tanggal": "2026-10-22",
+      "uraian": "Pemasangan dan pemeliharaan CCTV",
+      "kategori": "Keamanan",
+      "jenis": "keluar",
+      "nominal": 200000,
+      "sumberBaris": 119
+    },
+    {
+      "id": "trx-2026-120",
+      "tanggal": "2026-10-24",
+      "uraian": "Penerimaan iuran warga",
+      "kategori": "Iuran",
+      "jenis": "masuk",
+      "nominal": 420000,
+      "sumberBaris": 120
+    }
+  ]
+}

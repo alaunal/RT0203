@@ -8,7 +8,7 @@ export default function Image() {
   return ogImage({
     eyebrow: "Aktivitas Warga",
     title: "Kabar & dokumentasi kegiatan warga",
-    photo: "/images/akt-kerja-bakti-jalan.jpg",
+    photo: "/images/akt-kerja-bakti-jalan-rt.jpg",
     subtitle: "Kerja bakti, posyandu, rapat warga, Karang Taruna, dan lainnya.",
   });
 }

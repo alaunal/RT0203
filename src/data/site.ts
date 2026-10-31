@@ -7,9 +7,12 @@ export const site = {
   kecamatan: "Kecamatan Jatiasih",
   kota: "Kota Bekasi",
   tagline: "Bersama membangun lingkungan yang rukun, bersih, dan transparan.",
-  alamat: "Sekretariat RT 02, Jl. Contoh Raya No. 12, Kel. Jatiluhur, Kec. Jatiasih, Kota Bekasi 17425",
-  lat: -6.295,
-  lng: 106.952,
+  alamat: "Area RT 02 / RW 03, Kel. Jatiluhur, Kec. Jatiasih, Kota Bekasi · Patokan: Kedai ABAH Kopi YOJO",
+  lokasiPatokan: "Kedai ABAH Kopi YOJO",
+  // Koordinat tempat (!3d / !4d), bukan pusat kamera (@), dari tautan warga.
+  lat: -6.3123034,
+  lng: 106.9458975,
+  googleMapsUrl: "https://www.google.com/maps/place/Kedai+ABAH+Kopi+YOJO/@-6.3122999,106.9451577,19.74z/data=!4m6!3m5!1s0x2e699331aaac91b1:0xbc06f29f9ce5887e!8m2!3d-6.3123034!4d106.9458975!16s%2Fg%2F11t3gc8j73",
   waResmi: "0812-0000-0001",
   jumlahKK: 124,
   jumlahWarga: 438,
@@ -32,10 +35,10 @@ export const misi = [
 ];
 
 export const lokasiFoto = [
-  { src: "/images/lokasi-deret-rumah.jpg", caption: "Deretan rumah warga" },
-  { src: "/images/lokasi-jalan-warga.jpg", caption: "Jalan lingkungan" },
-  { src: "/images/lokasi-pos-ronda.jpg", caption: "Pos ronda & warung" },
-  { src: "/images/lokasi-gang-2.jpg", caption: "Gang 2" },
+  { src: "/images/lokasi-deret-rumah-rt.jpg", caption: "Deretan rumah warga" },
+  { src: "/images/lokasi-jalan-warga-rt.jpg", caption: "Jalan lingkungan" },
+  { src: "/images/lokasi-pos-ronda-rt.jpg", caption: "Pos ronda & warung" },
+  { src: "/images/lokasi-gang-2-rt.jpg", caption: "Gang lingkungan" },
 ];
 
 export type NavItem = { label: string; href: string; children?: { label: string; href: string }[] };

@@ -32,14 +32,14 @@ export function Hero({ saldo, kegiatanBulanIni }: { saldo: number; kegiatanBulan
     <section ref={ref} className="relative isolate flex min-h-[85svh] items-end overflow-hidden lg:min-h-[max(600px,100svh)]">
       <motion.div style={{ y: bgY }} className="absolute inset-0 -z-10">
         <Image
-          src="/images/hero-perumahan.jpg"
-          alt="Pemandangan perumahan warga saat matahari terbenam"
+          src="/images/hero-drone-sunset-rt.jpg"
+          alt="Ilustrasi pandangan drone lingkungan RT saat sunset, dengan cahaya senja hangat serta lampu jalan dan rumah warga yang menyala"
           fill
           preload
           sizes="100vw"
-          className="animate-ken-burns object-cover"
+          className="animate-hero-zoom-out origin-center object-cover motion-reduce:animate-none"
         />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(13,51,34,.35)_0%,rgba(13,51,34,.85)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(18,15,24,.16)_0%,rgba(18,15,24,.24)_40%,rgba(18,15,24,.76)_100%)]" />
       </motion.div>
 
       <motion.div style={{ y: contentY, opacity: fade }} className="mx-auto w-full max-w-[1200px] px-4 pb-28 pt-32 text-center md:px-6 md:text-left lg:pb-40">

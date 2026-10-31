@@ -1,4 +1,4 @@
-// DATA DUMMY — foto placeholder dari picsum.photos (PRD.md §12.8)
+// DATA DUMMY — foto ilustrasi AI; bukan dokumentasi kegiatan warga asli.
 import type { KategoriId } from "./kategori";
 
 export type Aktivitas = {
@@ -26,8 +26,8 @@ export const aktivitas: Aktivitas[] = [
     kategori: "rapat",
     tanggal: "2026-10-12",
     lokasi: "Sekretariat RT",
-    cover: "/images/akt-rapat-rumah.jpg",
-    galeri: ["/images/akt-rapat-rumah.jpg", "/images/lokasi-gang-2.jpg"],
+    cover: "/images/akt-rapat-rumah-rt.jpg",
+    galeri: ["/images/akt-rapat-rumah-rt.jpg", "/images/lokasi-gang-2-rt.jpg"],
   },
   {
     slug: "penimbangan-bank-sampah-oktober",
@@ -40,8 +40,8 @@ export const aktivitas: Aktivitas[] = [
     kategori: "bank-sampah",
     tanggal: "2026-10-11",
     lokasi: "Sekretariat RT",
-    cover: "/images/akt-bank-sampah.jpg",
-    galeri: ["/images/akt-bank-sampah.jpg", "/images/bs-kertas.jpg"],
+    cover: "/images/akt-bank-sampah-rt.jpg",
+    galeri: ["/images/akt-bank-sampah-rt.jpg", "/images/bs-kertas-rt.jpg"],
   },
   {
     slug: "posyandu-balita-lansia-oktober",
@@ -54,8 +54,8 @@ export const aktivitas: Aktivitas[] = [
     kategori: "kesehatan",
     tanggal: "2026-10-06",
     lokasi: "Balai Warga",
-    cover: "/images/akt-posyandu-gang.jpg",
-    galeri: ["/images/akt-posyandu-gang.jpg"],
+    cover: "/images/akt-posyandu-gang-rt.jpg",
+    galeri: ["/images/akt-posyandu-gang-rt.jpg"],
   },
   {
     slug: "futsal-karang-taruna-september",
@@ -68,8 +68,8 @@ export const aktivitas: Aktivitas[] = [
     kategori: "karang-taruna",
     tanggal: "2026-09-27",
     lokasi: "Lapangan RW 03",
-    cover: "/images/akt-futsal.jpg",
-    galeri: ["/images/akt-futsal.jpg", "/images/kt-futsal.jpg"],
+    cover: "/images/akt-futsal-rt.jpg",
+    galeri: ["/images/akt-futsal-rt.jpg", "/images/kt-futsal-rt.jpg"],
   },
   {
     slug: "kerja-bakti-saluran-air-september",
@@ -82,8 +82,8 @@ export const aktivitas: Aktivitas[] = [
     kategori: "kerja-bakti",
     tanggal: "2026-09-20",
     lokasi: "Seluruh gang RT 02",
-    cover: "/images/akt-kerja-bakti-jalan.jpg",
-    galeri: ["/images/akt-kerja-bakti-jalan.jpg", "/images/akt-deret-rumah.jpg"],
+    cover: "/images/akt-kerja-bakti-jalan-rt.jpg",
+    galeri: ["/images/akt-kerja-bakti-jalan-rt.jpg", "/images/akt-deret-rumah-rt.jpg"],
   },
   {
     slug: "sepeda-santai-hut-ri",
@@ -95,8 +95,8 @@ export const aktivitas: Aktivitas[] = [
     kategori: "lainnya",
     tanggal: "2026-08-16",
     lokasi: "Start: Gerbang RT 02",
-    cover: "/images/akt-sepeda-santai.jpg",
-    galeri: ["/images/akt-sepeda-santai.jpg", "/images/kt-gowes.jpg"],
+    cover: "/images/akt-sepeda-santai-rt.jpg",
+    galeri: ["/images/akt-sepeda-santai-rt.jpg", "/images/kt-gowes-rt.jpg"],
   },
   {
     slug: "pengajian-bulanan-agustus",
@@ -108,8 +108,8 @@ export const aktivitas: Aktivitas[] = [
     kategori: "keagamaan",
     tanggal: "2026-08-09",
     lokasi: "Musala Al-Ikhlas",
-    cover: "/images/akt-pengajian.jpg",
-    galeri: ["/images/akt-pengajian.jpg"],
+    cover: "/images/akt-pengajian-rt.jpg",
+    galeri: ["/images/akt-pengajian-rt.jpg"],
   },
   {
     slug: "penghijauan-taman-warga",
@@ -122,8 +122,8 @@ export const aktivitas: Aktivitas[] = [
     kategori: "kerja-bakti",
     tanggal: "2026-07-19",
     lokasi: "Taman Gang 3",
-    cover: "/images/akt-penghijauan-taman.jpg",
-    galeri: ["/images/akt-penghijauan-taman.jpg", "/images/akt-taman-warga.jpg"],
+    cover: "/images/akt-penghijauan-taman-rt.jpg",
+    galeri: ["/images/akt-penghijauan-taman-rt.jpg", "/images/akt-taman-warga-rt.jpg"],
   },
 ];
 

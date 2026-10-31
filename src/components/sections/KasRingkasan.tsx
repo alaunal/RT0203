@@ -1,21 +1,20 @@
 import clsx from "clsx";
-import { BadgeCheck, FileDown } from "lucide-react";
+import { FileSpreadsheet } from "lucide-react";
 import Link from "next/link";
 import { Reveal } from "@/components/ui/motion";
 import { btn, Section, SectionHeader } from "@/components/ui/primitives";
 import { laporanInfo, ringkasanKas, transaksiTerbaru } from "@/data/kas";
-import { site } from "@/data/site";
 import { dateShort, monthYear } from "@/lib/format";
 import { KasChart } from "./KasChart";
 import { KasTable, StatTiles } from "./KasParts";
 
 export function kasTiles() {
-  const { now, prev, kkBayar } = ringkasanKas();
+  const { now, prev, iuran } = ringkasanKas();
   return [
     { label: "Saldo Akhir", value: now.saldo, kind: "rp" as const, delta: { value: now.saldo - prev.saldo, goodWhenUp: true } },
-    { label: "Pemasukan Bulan Ini", value: now.masuk, kind: "rp" as const, delta: { value: now.masuk - prev.masuk, goodWhenUp: true } },
-    { label: "Pengeluaran Bulan Ini", value: now.keluar, kind: "rp" as const, delta: { value: now.keluar - prev.keluar, goodWhenUp: false } },
-    { label: `Iuran Terkumpul (${kkBayar}/${site.jumlahKK} KK)`, value: Math.round((kkBayar / site.jumlahKK) * 100), kind: "pct" as const },
+    { label: "Pemasukan Bulan Tercatat", value: now.masuk, kind: "rp" as const, delta: { value: now.masuk - prev.masuk, goodWhenUp: true } },
+    { label: "Pengeluaran Bulan Tercatat", value: now.keluar, kind: "rp" as const, delta: { value: now.keluar - prev.keluar, goodWhenUp: false } },
+    { label: "Iuran Diterima Bulan Tercatat", value: iuran, kind: "rp" as const },
   ];
 }
 
@@ -26,7 +25,7 @@ export function KasRingkasan() {
       <SectionHeader
         eyebrow={`Kas RT · ${monthYear(`${now.bulan}-01`)}`}
         title="Ringkasan kas, terbuka untuk semua warga"
-        intro="Saldo dihitung otomatis dari setiap transaksi yang dicatat bendahara."
+        intro="Bersumber dari buku kas RT. Saldo dihitung dari saldo awal dan transaksi yang tercatat; arsip tiap tahun tersedia di laporan lengkap."
         link={{ href: "/kas", label: "Laporan kas lengkap" }}
       />
       <StatTiles tiles={kasTiles()} />
@@ -44,15 +43,12 @@ export function KasRingkasan() {
 
       <Reveal className="mt-6 flex flex-col gap-3 rounded-lg border border-dashed border-primary-300 bg-primary-50 p-4 sm:flex-row sm:items-center sm:justify-between">
         <p className="flex items-center gap-2 text-[14px] text-primary-900">
-          <BadgeCheck className="size-5 shrink-0 text-primary-600" />
-          Diperbarui {dateShort(laporanInfo.diperbarui)} · Diverifikasi {laporanInfo.verifikator}
+          <FileSpreadsheet className="size-5 shrink-0 text-primary-600" />
+          Data tercatat sampai {dateShort(laporanInfo.diperbarui)} · Sumber: buku kas RT
         </p>
         <div className="flex gap-2">
-          <a href="/dokumen/laporan-kas-2026-09.pdf" target="_blank" className={clsx(btn.base, btn.primary, "h-10 md:h-10 text-sm")}>
-            <FileDown className="size-4" /> Laporan PDF
-          </a>
           <Link href="/kas" className={clsx(btn.base, btn.outline, "h-10 md:h-10 text-sm")}>
-            Detail
+            Lihat arsip tahunan
           </Link>
         </div>
       </Reveal>

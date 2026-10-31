@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const latestPanduan = latest(panduan.map((p) => p.diperbarui));
 
   return [
-    { url: absUrl("/"), lastModified: ref, changeFrequency: "weekly", priority: 1, images: [absUrl("/images/hero-perumahan.jpg")] },
+    { url: absUrl("/"), lastModified: ref, changeFrequency: "weekly", priority: 1, images: [absUrl("/images/hero-drone-sunset-rt.jpg")] },
     { url: absUrl("/aktivitas"), lastModified: aktivitasSorted[0].tanggal, changeFrequency: "weekly", priority: 0.8 },
     { url: absUrl("/jadwal"), lastModified: ref, changeFrequency: "weekly", priority: 0.8 },
     { url: absUrl("/kas"), lastModified: ref, changeFrequency: "monthly", priority: 0.7 },

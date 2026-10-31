@@ -65,7 +65,6 @@ const websiteLd = {
       description: siteDescription,
       address: {
         "@type": "PostalAddress",
-        streetAddress: "Jl. Contoh Raya No. 12",
         addressLocality: "Jatiluhur, Jatiasih",
         addressRegion: "Jawa Barat",
         postalCode: "17425",

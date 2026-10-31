@@ -1,23 +1,34 @@
-# Kredit Foto
+# Kredit dan Status Gambar
 
-Foto lingkungan perumahan dari [Unsplash](https://unsplash.com/license) (Unsplash License — bebas dipakai, atribusi tidak wajib). Foto lain: placeholder picsum.photos.
+Seluruh 26 foto tampilan situs diganti dengan ilustrasi AI fotorealistis menggunakan built-in imagegen pada 31 Oktober 2026. Gambar menggambarkan suasana lingkungan dan kegiatan RT Indonesia; bukan dokumentasi warga, kegiatan, atau kondisi lokasi RT 02 / RW 03 yang sebenarnya. Foto tidak menyatakan kemiripan dengan penduduk atau bangunan tertentu.
 
-| File | Sumber |
-|---|---|
-| hero-perumahan.jpg | [An aerial view of a village with a sunset in the background](https://unsplash.com/photos/an-aerial-view-of-a-village-with-a-sunset-in-the-background-qQDxCs73TIE) |
-| lokasi-deret-rumah.jpg | [a row of small houses sitting next to each other](https://unsplash.com/photos/a-row-of-small-houses-sitting-next-to-each-other-ZHQVbH0FEM0) |
-| lokasi-jalan-warga.jpg | [a cobblestone street lined with colorful houses](https://unsplash.com/photos/a-cobblestone-street-lined-with-colorful-houses-olUgDy3n1PI) |
-| lokasi-pos-ronda.jpg | [a street that has some houses on it](https://unsplash.com/photos/a-street-that-has-some-houses-on-it-ZVAH_qsF7Tk) |
-| lokasi-gang-2.jpg | [a row of houses with green and yellow painted walls](https://unsplash.com/photos/a-row-of-houses-with-green-and-yellow-painted-walls-3BEZUYeKlu0) |
-| akt-rapat-rumah.jpg | [a small white house with a porch and stairs](https://unsplash.com/photos/a-small-white-house-with-a-porch-and-stairs-cDbgKoViuI0) |
-| akt-posyandu-gang.jpg | [a row of colorful houses on a cobblestone street](https://unsplash.com/photos/a-row-of-colorful-houses-on-a-cobblestone-street-x5ZCmOqEb-k) |
-| akt-kerja-bakti-jalan.jpg | [a row of houses sitting next to each other on a dirt road](https://unsplash.com/photos/a-row-of-houses-sitting-next-to-each-other-on-a-dirt-road-CGtCq6MrJEE) |
-| akt-sepeda-santai.jpg | [a group of people riding bikes down a street](https://unsplash.com/photos/a-group-of-people-riding-bikes-down-a-street-Xys3r3W3QX0) |
-| akt-pengajian.jpg | [a house with a lot of trees in front of it](https://unsplash.com/photos/a-house-with-a-lot-of-trees-in-front-of-it-AqAQZSsYO0M) |
-| akt-penghijauan-taman.jpg | [A pond surrounded by palm trees and a bridge](https://unsplash.com/photos/a-pond-surrounded-by-palm-trees-and-a-bridge-8zG3LYWcsE4) |
-| akt-deret-rumah.jpg | [a row of small houses sitting next to each other](https://unsplash.com/photos/a-row-of-small-houses-sitting-next-to-each-other-CKAmJSbQ7E4) |
-| akt-taman-warga.jpg | [a driveway lined with trees and bushes next to a building](https://unsplash.com/photos/a-driveway-lined-with-trees-and-bushes-next-to-a-building-KoEklKozWA4) |
-| kt-gowes.jpg | [a man riding a bike down a street](https://unsplash.com/photos/a-man-riding-a-bike-down-a-street-C2s0qIPVuQ0) |
-| pd-lapor-tamu.jpg | [a row of houses with yellow and red doors](https://unsplash.com/photos/a-row-of-houses-with-yellow-and-red-doors-TsfelJd4dIM) |
-| pd-ronda-gang.jpg | [Narrow street lined with houses and utility poles](https://unsplash.com/photos/narrow-street-lined-with-houses-and-utility-poles-cEznSBgUNqw) |
-| pd-rumah-baru.jpg | [a couple of small houses sitting next to each other](https://unsplash.com/photos/a-couple-of-small-houses-sitting-next-to-each-other-HgvKkkkelkI) |
+Prompt lengkap per gambar tersedia di [PROMPTS.json](./PROMPTS.json). Gambar dioptimalkan sebagai JPEG dan menggunakan nama baru untuk mencegah cache foto lama.
+
+- `hero-drone-sunset-rt.jpg` — hero aktif: hasil edit pencahayaan sunset dengan lampu jalan dan rumah menyala menggunakan built-in imagegen; sudut drone dipertahankan.
+- `hero-drone-rt.jpg` — versi drone sebelum edit sunset, disimpan sebagai arsip.
+- `hero-perumahan-rt.jpg` — versi hero sebelumnya, disimpan sebagai arsip.
+- `akt-rapat-rumah-rt.jpg`
+- `akt-futsal-rt.jpg`
+- `akt-bank-sampah-rt.jpg`
+- `akt-kerja-bakti-jalan-rt.jpg`
+- `akt-posyandu-gang-rt.jpg`
+- `akt-sepeda-santai-rt.jpg`
+- `akt-penghijauan-taman-rt.jpg`
+- `akt-pengajian-rt.jpg`
+- `akt-deret-rumah-rt.jpg`
+- `bs-kertas-rt.jpg`
+- `kt-diskusi-rt.jpg`
+- `akt-taman-warga-rt.jpg`
+- `kt-gowes-rt.jpg`
+- `kt-futsal-rt.jpg`
+- `kt-hiking-rt.jpg`
+- `kt-kano-rt.jpg`
+- `lokasi-gang-2-rt.jpg`
+- `lokasi-deret-rumah-rt.jpg`
+- `lokasi-pos-ronda-rt.jpg`
+- `lokasi-jalan-warga-rt.jpg`
+- `pd-lapor-tamu-rt.jpg`
+- `pd-bank-sampah-rt.jpg`
+- `pd-rumah-baru-rt.jpg`
+- `pd-ronda-gang-rt.jpg`
+- `pd-surat-rt.jpg`

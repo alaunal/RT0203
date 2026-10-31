@@ -8,7 +8,7 @@ export default function Image() {
   return ogImage({
     eyebrow: "Jadwal Kegiatan",
     title: "Kalender kegiatan warga",
-    photo: "/images/akt-taman-warga.jpg",
+    photo: "/images/akt-taman-warga-rt.jpg",
     subtitle: "Posyandu, kerja bakti, rapat warga, ronda, dan acara bersama.",
   });
 }

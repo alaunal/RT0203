@@ -3,7 +3,7 @@
 Website informasi warga RT 02 / RW 03, Kel. Jatiluhur, Kec. Jatiasih, Kota Bekasi.
 Spesifikasi: [`../PRD.md`](../PRD.md) · Desain: [`../design.md`](../design.md)
 
-> ⚠️ Semua data (nama, nomor, angka kas, foto) masih **DUMMY** — lihat PRD §12. Ganti sebelum rilis.
+> Kas menggunakan buku kas asli 2023–2026; lihat [panduan impor kas](docs/KAS.md). Profil, kontak, dan kegiatan masih data contoh. Foto merupakan ilustrasi AI.
 
 ## Menjalankan
 

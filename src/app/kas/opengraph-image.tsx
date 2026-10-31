@@ -8,7 +8,7 @@ export default function Image() {
   return ogImage({
     eyebrow: "Kas RT · Transparan",
     title: "Laporan kas yang terbuka untuk seluruh warga",
-    photo: "/images/akt-rapat-rumah.jpg",
+    photo: "/images/akt-rapat-rumah-rt.jpg",
     subtitle: "Pemasukan, pengeluaran, dan saldo setiap bulan.",
   });
 }

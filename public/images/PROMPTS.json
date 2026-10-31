@@ -1,0 +1,115 @@
+[
+  {
+    "file": "hero-drone-sunset-rt.jpg",
+    "input": "hero-drone-rt.jpg",
+    "prompt": "Use case: lighting-weather. Asset type: photorealistic wide website hero background. Input image: edit target, existing aerial drone photograph of an Indonesian RT neighborhood. Primary request: transform ONLY the lighting, time of day, and activated practical lights to create a syahdu, peaceful, intimate sunset atmosphere as evening begins. Preserve the exact current aerial drone camera angle, framing, aspect ratio, central diagonal lane, every building's placement and shape, roofs, trees, and overall composition. Do not add sky or change camera pitch. The sun is just setting off frame: subtle amber-orange and soft rose last sunlight grazes the roof edges and upper foliage; ambient shadows become soft twilight blue-violet, not black. A few warm amber street lamps mounted to existing utility poles illuminate natural pools of light along the central lane, while many scattered porch lamps, open doorways, and some visible house windows glow inviting warm yellow. Light intensity and falloff must be physically believable, visible but gentle, with very restrained soft bloom around bulbs; no giant starbursts, neon, fairy lights, or unrealistic illuminated roofs. Keep houses and roof details clear and well exposed so the neighborhood remains legible as a hero background. Mood: warm Indonesian kampung dusk, homecoming, calm, welcoming, cinematic but naturally photographic. Preserve residents, motorbikes, trees, and all architectural details. No text, watermarks, exaggerated orange filter, heavy fog, added sun disc, or decorative objects. Output landscape at least 1672x941, ideally 2048x1152."
+  },
+  {
+    "file": "hero-drone-rt.jpg",
+    "prompt": "Use case: photorealistic-natural. Asset type: full-width website hero background, landscape 16:9, 2048x1152. Primary request: a realistic aerial drone photograph of an everyday RT residential neighborhood in Jatiasih Bekasi Indonesia. Camera genuinely elevated 45-60 meters above rooftops, looking diagonally downward about 50 degrees, clearly showing many rooftops, narrow neighborhood lanes, modest one and two story lived-in homes with varied terracotta and weathered concrete roofs, small front yards, lush tropical trees interspersed between houses, a few parked motorbikes and tiny distant residents, a few small Indonesian red-white flags. Dense but friendly and orderly Indonesian urban village, natural irregular street pattern, authentic everyday neighborhood, no uniform luxury housing estate. Composition: neighborhood fills almost entire frame, little or no sky, a visible residential lane winds through central third; interesting details in center survive mobile portrait cropping; left-lower area visually quiet enough for overlaid website text. Lighting: warm late-afternoon sunlight, soft realistic shadows, natural greens and muted earth tones, detailed natural roof textures, photographic realism, no HDR oversaturation. Constraints: single coherent aerial photograph, not collage, no visible drone, no text overlay, no watermark, no logos, no labels. Illustrative generic neighborhood, not an accurate survey or depiction of any specific real address."
+  },
+  {
+    "file": "hero-perumahan-rt.jpg",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide landscape website hero photo, 1536x1024. A candid realistic eye-level photograph of an everyday lived-in residential RT lane in Jatiasih Bekasi Indonesia at warm late afternoon. Modest diverse one and two story houses, terracotta tiled roofs, small front terraces, potted tropical plants, overhead utility wires, a few parked motorbikes, Indonesian neighbors chatting naturally by a gate and walking home, a small red white Indonesian flag. Wide environmental composition with plenty of street and houses visible, natural proportions, realistic imperfections, subdued colors, ordinary phone documentary photography, not luxury real estate or a staged advertisement. No overlaid text, no watermarks, no branding, no fabricated location labels. This is an illustrative scene, do not depict a specific real business."
+  },
+  {
+    "file": "akt-rapat-rumah-rt.jpg",
+    "prompt": "undefinedAn evening RT residents meeting on a modest home's covered terrace. Eight adult neighbors, men and women including women in hijabs, sit on plastic chairs around a table with a notebook, tea glasses and snacks, listening to a speaking neighbor. Warm ordinary porch lights, medium wide view."
+  },
+  {
+    "file": "akt-futsal-rt.jpg",
+    "prompt": "undefinedYoung Indonesian adult men actively playing a friendly neighborhood futsal match on a small fenced outdoor artificial turf court, a ball in play, modest houses behind the fence, five players visible, believable anatomy and movement, daylight."
+  },
+  {
+    "file": "akt-bank-sampah-rt.jpg",
+    "prompt": "undefinedNeighborhood waste bank collection morning. Volunteers weigh a sack of clean PET bottles on a floor scale while a woman records the weight at a simple table. Other residents bring sorted cardboard in sacks, shaded residential courtyard."
+  },
+  {
+    "file": "akt-kerja-bakti-jalan-rt.jpg",
+    "prompt": "undefinedFive adult Indonesian neighbors doing gotong royong cleaning the shallow roadside drain on a residential lane, using shovels, brooms and a wheelbarrow, gloves and practical sandals or boots, morning light, wide view."
+  },
+  {
+    "file": "akt-posyandu-gang-rt.jpg",
+    "prompt": "undefinedA small community posyandu health session on a shaded open community hall terrace. An Indonesian health volunteer in a modest uniform measures an elderly woman's blood pressure at a table, a mother holds her toddler nearby. Friendly ordinary candid scene, no readable medical records."
+  },
+  {
+    "file": "akt-sepeda-santai-rt.jpg",
+    "prompt": "undefinedA relaxed Indonesian neighborhood family bicycle ride during independence celebrations, adult neighbors wearing helmets ride slowly together on a narrow residential road, small Indonesian flags on houses, a few bikes with small red and white ribbons, morning light."
+  },
+  {
+    "file": "akt-penghijauan-taman-rt.jpg",
+    "prompt": "undefinedIndonesian neighbors planting young saplings on a small vacant plot between modest residential houses. Two adults kneel by a planting hole while another waters, gardening gloves, pots and a few tools, ordinary community gardening morning."
+  },
+  {
+    "file": "akt-pengajian-rt.jpg",
+    "prompt": "undefinedAn intimate neighborhood pengajian in a modest Indonesian musala, adult men wearing peci caps and women wearing hijabs seated comfortably on floor mats in separate small groups, listening quietly to a speaker seated at front, respectful medium wide rear-side view, no readable text."
+  },
+  {
+    "file": "akt-deret-rumah-rt.jpg",
+    "prompt": "undefinedAfter neighborhood cleanup, three adult Indonesian neighbors sweep a modest residential lane outside a varied row of occupied houses, potted plants by gates, damp paving, natural everyday morning, wide environmental view."
+  },
+  {
+    "file": "bs-kertas-rt.jpg",
+    "prompt": "undefinedClose environmental detail of tied bundles of used brown cardboard and newspaper beside clean sorted plastic bottles in sacks at an Indonesian neighborhood waste bank, a volunteer's gloved hands tie a bundle on a simple table, soft natural light, no readable text."
+  },
+  {
+    "file": "kt-diskusi-rt.jpg",
+    "prompt": "undefinedSix Indonesian young adults, men and women some in hijabs, planning community activities around a small wooden table on a home terrace, notebooks, one laptop, tea glasses, casual attentive conversation, natural late afternoon light."
+  },
+  {
+    "file": "akt-taman-warga-rt.jpg",
+    "prompt": "undefinedA small realistic Indonesian neighborhood pocket garden on a former vacant lot, newly planted saplings, simple reused tire planters, a wooden bench, two neighbors watering plants, houses close behind, modest scale."
+  },
+  {
+    "file": "kt-gowes-rt.jpg",
+    "prompt": "undefinedFive young adult Indonesian friends in helmets on everyday bicycles cycling together along a quiet leafy residential road in Bekasi, modest houses and stalls, natural morning, relaxed recreational pace, medium wide shot."
+  },
+  {
+    "file": "kt-futsal-rt.jpg",
+    "prompt": "undefinedSeven young Indonesian adult futsal players taking a break on the side of a neighborhood court, casual different sports shirts, chatting and drinking water, football resting by feet, fenced court and modest surroundings, candid shot."
+  },
+  {
+    "file": "kt-hiking-rt.jpg",
+    "prompt": "undefinedFive Indonesian young adult Karang Taruna friends setting up two modest camping tents on a tropical West Java campsite, low green hills and banana trees in distance, simple hiking clothes, one woman in sport hijab, ordinary overcast daylight, believable local camping gathering."
+  },
+  {
+    "file": "kt-kano-rt.jpg",
+    "prompt": "undefinedFive Indonesian young adult community volunteers cleaning a small tropical urban lake shore, three on shore with litter grabbers and sacks and two wearing life jackets in a stable small rowboat close to shore, trees and modest distant houses, calm morning, realistic environmental volunteering."
+  },
+  {
+    "file": "lokasi-gang-2-rt.jpg",
+    "prompt": "undefinedA narrow pedestrian residential gang in Bekasi, plaster walls of modest single story homes, doors and small gated terraces, pothos and tropical plants in reused pots, a parked bicycle and a walking neighbor, soft morning daylight, lived-in and tidy but imperfect."
+  },
+  {
+    "file": "lokasi-deret-rumah-rt.jpg",
+    "prompt": "undefinedA lived-in row of varied modest Indonesian houses in a neighborhood lane, clay roof tiles, metal gates, a parked motorbike, drying laundry tucked on a terrace, potted plants and utility cables, a neighbor at a doorway, natural eye level wide shot."
+  },
+  {
+    "file": "lokasi-pos-ronda-rt.jpg",
+    "prompt": "undefinedA modest Indonesian neighborhood pos ronda, small open-sided tiled roof shelter with wooden bench and a nearby simple warung, two middle-aged Indonesian men chatting over tea, residential lane behind, late afternoon, avoid readable signage."
+  },
+  {
+    "file": "lokasi-jalan-warga-rt.jpg",
+    "prompt": "undefinedA slightly wider local residential road in Jatiasih Bekasi with modest houses and a small corner warung, a man pushes a bicycle and two neighbors chat beside potted plants, overhead wires, realistic textured asphalt, warm afternoon."
+  },
+  {
+    "file": "pd-lapor-tamu-rt.jpg",
+    "prompt": "undefinedAn adult Indonesian visitor politely reports arrival to a neighborhood volunteer at a simple pos ronda desk, volunteer writes in a guest ledger, residential lane and motorbike visible behind, friendly daytime interaction, no readable personal data."
+  },
+  {
+    "file": "pd-bank-sampah-rt.jpg",
+    "prompt": "undefinedPractical household waste sorting on a modest Indonesian house terrace, an adult Indonesian woman separates clean plastic bottles and flattened cardboard into two different sacks, a volunteer neighbor helps, natural morning, clearly recognizable waste sorting."
+  },
+  {
+    "file": "pd-rumah-baru-rt.jpg",
+    "prompt": "undefinedA young Indonesian adult couple moving into a modest occupied neighborhood home, carrying two cardboard boxes through a small gate while an older neighbor greets them, potted plants on terrace, casual friendly daylight, no readable labels."
+  },
+  {
+    "file": "pd-ronda-gang-rt.jpg",
+    "prompt": "undefinedFour adult Indonesian male neighbors during a calm evening neighborhood security patrol, two holding small flashlights walking along a modest residential alley near a lit pos ronda, warm porch lamps and blue twilight, realistic safe friendly mood, no police equipment."
+  },
+  {
+    "file": "pd-surat-rt.jpg",
+    "prompt": "undefinedAn Indonesian resident arranging a neighborhood administrative letter at a simple RT desk on a home terrace, an adult volunteer reviewing paperwork and holding a pen, folders and a stamp on desk, tea glass, naturally framed hands and upper bodies, no legible personal information."
+  }
+]

@@ -24,7 +24,7 @@ export const panduan: Panduan[] = [
     judul: "Cara Mengurus Surat Pengantar RT",
     ringkasan: "Syarat dan langkah meminta surat pengantar untuk KTP, KK, SKCK, domisili, dan keperluan lain.",
     kategori: "Administrasi",
-    cover: "/images/pd-surat.jpg",
+    cover: "/images/pd-surat-rt.jpg",
     menit: 3,
     diperbarui: "2026-05-04",
     bagian: [
@@ -55,7 +55,7 @@ export const panduan: Panduan[] = [
     judul: "Wajib Lapor Tamu 1×24 Jam",
     ringkasan: "Tamu menginap lebih dari 24 jam wajib dilaporkan ke pengurus RT demi keamanan bersama.",
     kategori: "Keamanan",
-    cover: "/images/pd-lapor-tamu.jpg",
+    cover: "/images/pd-lapor-tamu-rt.jpg",
     menit: 2,
     diperbarui: "2026-05-18",
     bagian: [
@@ -77,7 +77,7 @@ export const panduan: Panduan[] = [
     judul: "Jadwal & Tata Tertib Ronda Malam",
     ringkasan: "Pembagian regu, jam jaga, dan hal yang perlu diperhatikan saat ronda.",
     kategori: "Keamanan",
-    cover: "/images/pd-ronda-gang.jpg",
+    cover: "/images/pd-ronda-gang-rt.jpg",
     menit: 3,
     diperbarui: "2026-06-08",
     bagian: [
@@ -99,7 +99,7 @@ export const panduan: Panduan[] = [
     judul: "Cara Menabung di Bank Sampah",
     ringkasan: "Ubah sampah anorganik jadi tabungan. Begini cara jadi nasabah Bank Sampah Berkah Bersih.",
     kategori: "Lingkungan",
-    cover: "/images/pd-bank-sampah.jpg",
+    cover: "/images/pd-bank-sampah-rt.jpg",
     menit: 3,
     diperbarui: "2026-07-13",
     bagian: [
@@ -121,7 +121,7 @@ export const panduan: Panduan[] = [
     judul: "Panduan Warga Baru: Pindah Datang",
     ringkasan: "Selamat datang! Ini yang perlu dilakukan saat baru pindah ke RT 02.",
     kategori: "Administrasi",
-    cover: "/images/pd-rumah-baru.jpg",
+    cover: "/images/pd-rumah-baru-rt.jpg",
     menit: 4,
     diperbarui: "2026-08-24",
     bagian: [

@@ -68,7 +68,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-[1200px] flex-col gap-2 px-4 py-5 text-sm md:flex-row md:items-center md:justify-between md:px-6">
           <p>© 2026 RT 02 / RW 03 Kel. Jatiluhur, Kec. Jatiasih, Kota Bekasi</p>
-          <p className="text-white/60">Data di situs ini masih contoh (dummy).</p>
+          <p className="text-white/60">Kas bersumber dari buku kas RT · Profil dan kegiatan masih contoh · Foto ilustrasi AI.</p>
         </div>
       </div>
     </footer>

@@ -1,13 +1,10 @@
 import { ShieldCheck } from "lucide-react";
 import type { Metadata } from "next";
-import { KasChart } from "@/components/sections/KasChart";
-import { KasExplorer } from "@/components/sections/KasExplorer";
-import { StatTiles } from "@/components/sections/KasParts";
-import { kasTiles } from "@/components/sections/KasRingkasan";
+import { KasLaporan } from "@/components/sections/KasLaporan";
 import { Reveal } from "@/components/ui/motion";
 import { PageHeader, Section } from "@/components/ui/primitives";
-import { laporanInfo, rekapBulanan, saldoAwal } from "@/data/kas";
-import { dateShort, rupiah } from "@/lib/format";
+import { laporanInfo, tahunKas } from "@/data/kas";
+import { dateShort } from "@/lib/format";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
@@ -20,21 +17,19 @@ export const metadata: Metadata = pageMeta({
 export default function KasPage() {
   return (
     <>
-      <PageHeader title="Laporan Kas RT" intro={`Saldo awal ${rupiah(saldoAwal.nominal)} per ${dateShort(saldoAwal.tanggal)}. Diperbarui ${dateShort(laporanInfo.diperbarui)}.`} crumbs={[{ label: "Beranda", href: "/" }, { label: "Kas RT" }]} />
+      <PageHeader title="Laporan Kas RT" intro={`Arsip buku kas ${[...tahunKas].reverse().join(", ")}. Data tercatat sampai ${dateShort(laporanInfo.diperbarui)}.`} crumbs={[{ label: "Beranda", href: "/" }, { label: "Kas RT" }]} />
       <Section>
-        <StatTiles tiles={kasTiles()} />
-        <Reveal className="mt-6 rounded-lg bg-surface p-4 shadow-soft ring-1 ring-line/60 md:p-6">
-          <h2 className="mb-4 text-lg font-semibold">Pemasukan, pengeluaran & saldo per bulan</h2>
-          <KasChart data={rekapBulanan()} height={380} />
-        </Reveal>
-        <Reveal className="mt-10">
-          <h2 className="mb-4 text-[24px] font-bold">Semua transaksi</h2>
-          <KasExplorer />
-        </Reveal>
+        <KasLaporan />
         <Reveal className="mt-8 flex gap-3 rounded-lg bg-primary-50 p-4 text-[14px] text-primary-900">
           <ShieldCheck className="size-5 shrink-0 text-primary-600" />
-          Demi privasi, iuran ditampilkan agregat per bulan — tidak per nama warga. Bukti transaksi dapat diperiksa langsung ke Bendahara.
+          Nama penyetor iuran dan penerima bantuan disamarkan. Tanggal, nominal, dan arah debit/kredit mengikuti buku kas sumber. Saldo awal tidak dihitung ulang sebagai pemasukan. Bukti transaksi dapat diperiksa ke pengurus.
         </Reveal>
+        <details className="mt-4 rounded-lg border border-line p-4 text-sm text-muted">
+          <summary className="cursor-pointer font-semibold text-ink">Sumber dan catatan pencatatan</summary>
+          <p className="mt-3">Sumber: {laporanInfo.sumber}. Ini merupakan impor file, belum tersinkron otomatis dengan spreadsheet.</p>
+          <p className="mt-2">Transaksi “Strip cek kesehatan” pada 14 September 2026 tercatat pada kolom debit sehingga ditampilkan sebagai pemasukan Rp750.000. Pengurus perlu mengonfirmasi klasifikasinya.</p>
+          <p className="mt-2">Tanggal mengikuti kolom tanggal sumber, termasuk entri 10 Agustus 2025 yang terletak di antara baris September. Uraian gaji Januari 2026 pada sumber menyebut Desember 2026; tanggal transaksi tetap mengikuti sumber.</p>
+        </details>
       </Section>
     </>
   );

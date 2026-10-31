@@ -41,10 +41,10 @@ export const karangTaruna = {
     "Wadah pemuda RW 03 untuk berkarya, berolahraga, dan berbagi. Terbuka untuk warga usia 13–35 tahun yang ingin ikut membangun lingkungan.",
   program: ["Futsal Mingguan", "Lomba 17-an", "Bakti Sosial Ramadan", "Kelas Desain & Konten Digital", "Penghijauan"],
   kegiatan: [
-    { judul: "Turnamen futsal antar-RT", tanggal: "2026-09-27", foto: "/images/kt-futsal.jpg" },
-    { judul: "Gowes pagi keliling Jatiasih", tanggal: "2026-09-06", foto: "/images/kt-gowes.jpg" },
-    { judul: "Diskusi pemuda: ide kegiatan 2027", tanggal: "2026-08-30", foto: "/images/kt-diskusi.jpg" },
-    { judul: "Camping ceria Karang Taruna", tanggal: "2026-07-12", foto: "/images/kt-hiking.jpg" },
-    { judul: "Susur situ & bersih danau", tanggal: "2026-06-21", foto: "/images/kt-kano.jpg" },
+    { judul: "Turnamen futsal antar-RT", tanggal: "2026-09-27", foto: "/images/kt-futsal-rt.jpg" },
+    { judul: "Gowes pagi keliling Jatiasih", tanggal: "2026-09-06", foto: "/images/kt-gowes-rt.jpg" },
+    { judul: "Diskusi pemuda: ide kegiatan 2027", tanggal: "2026-08-30", foto: "/images/kt-diskusi-rt.jpg" },
+    { judul: "Camping ceria Karang Taruna", tanggal: "2026-07-12", foto: "/images/kt-hiking-rt.jpg" },
+    { judul: "Susur situ & bersih danau", tanggal: "2026-06-21", foto: "/images/kt-kano-rt.jpg" },
   ],
 };

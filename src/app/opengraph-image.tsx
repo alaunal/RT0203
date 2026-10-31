@@ -8,7 +8,7 @@ export default function Image() {
   return ogImage({
     eyebrow: "Website Resmi Warga",
     title: "RT 02 / RW 03 Jatiluhur",
-    photo: "/images/hero-perumahan.jpg",
+    photo: "/images/hero-drone-sunset-rt.jpg",
     subtitle: "Bersama membangun lingkungan yang rukun, bersih, dan transparan.",
   });
 }

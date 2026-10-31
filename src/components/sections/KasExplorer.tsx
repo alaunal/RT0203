@@ -9,8 +9,8 @@ import { dateShort, monthYear, rupiah } from "@/lib/format";
 
 const PER_PAGE = 12;
 
-export function KasExplorer() {
-  const bulanList = useMemo(() => rekapBulanan().map((r) => r.bulan).reverse(), []);
+export function KasExplorer({ tahun }: { tahun: string }) {
+  const bulanList = useMemo(() => rekapBulanan(tahun).map((r) => r.bulan).reverse(), [tahun]);
   const [bulan, setBulan] = useState("semua");
   const [kat, setKat] = useState("semua");
   const [jenis, setJenis] = useState<"semua" | "masuk" | "keluar">("semua");
@@ -20,8 +20,8 @@ export function KasExplorer() {
     () =>
       [...transaksi]
         .sort((a, b) => b.tanggal.localeCompare(a.tanggal))
-        .filter((t) => (bulan === "semua" || t.tanggal.startsWith(bulan)) && (kat === "semua" || t.kategori === kat) && (jenis === "semua" || t.jenis === jenis)),
-    [bulan, kat, jenis],
+        .filter((t) => t.tanggal.startsWith(`${tahun}-`) && (bulan === "semua" || t.tanggal.startsWith(bulan)) && (kat === "semua" || t.kategori === kat) && (jenis === "semua" || t.jenis === jenis)),
+    [tahun, bulan, kat, jenis],
   );
   const pages = Math.max(1, Math.ceil(rows.length / PER_PAGE));
   const view = rows.slice(page * PER_PAGE, page * PER_PAGE + PER_PAGE);
@@ -34,12 +34,13 @@ export function KasExplorer() {
   };
 
   const exportCsv = () => {
+    const cell = (value: string | number) => `"${String(value).replace(/^[=+@\-]/, "'$&").replace(/"/g, '\"\"')}"`;
     const head = "Tanggal,Uraian,Kategori,Jenis,Nominal";
-    const body = rows.map((r) => [r.tanggal, `"${r.uraian.replace(/"/g, '""')}"`, r.kategori, r.jenis, r.nominal].join(","));
+    const body = rows.map((r) => [r.tanggal, r.uraian, r.kategori, r.jenis, r.nominal].map(cell).join(","));
     const blob = new Blob(["﻿" + [head, ...body].join("\n")], { type: "text/csv;charset=utf-8" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = `kas-rt02-${bulan}.csv`;
+    a.download = `kas-rt02-${tahun}-${bulan}.csv`;
     a.click();
     URL.revokeObjectURL(a.href);
   };

@@ -28,9 +28,11 @@ export function Lokasi() {
 
       <div className="grid gap-6 lg:grid-cols-12">
         <Reveal direction="right" className="lg:col-span-7">
-          <div ref={mapRef} className="h-[280px] overflow-hidden rounded-lg border border-line shadow-card md:h-[420px]">
+          {/* Batasi layer internal Leaflet (z-index hingga 1000) di bawah navigasi. */}
+          <div ref={mapRef} className="relative isolate z-0 h-[280px] overflow-hidden rounded-lg border border-line shadow-card md:h-[420px]">
             {mapNear ? <MapView /> : mapFallback()}
           </div>
+          <p className="mt-3 text-sm text-muted">Titik patokan: {site.lokasiPatokan}.</p>
           <div className="mt-4 flex flex-col gap-4 rounded-lg border border-line bg-surface p-5 shadow-soft sm:flex-row sm:items-center sm:justify-between">
             <div className="space-y-2 text-[15px]">
               <p className="flex gap-2">

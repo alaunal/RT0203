@@ -8,7 +8,7 @@ export default function Image() {
   return ogImage({
     eyebrow: "Dokumen & Arsip",
     title: "Formulir, notulen rapat, dan peraturan RT",
-    photo: "/images/pd-surat.jpg",
+    photo: "/images/pd-surat-rt.jpg",
     subtitle: "Unduh dokumen resmi RT kapan saja.",
   });
 }

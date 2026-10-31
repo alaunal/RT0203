@@ -126,7 +126,7 @@ export function BankSampah() {
             </div>
           </div>
           <div className="relative aspect-[16/9] overflow-hidden rounded-lg shadow-soft">
-            <Image src="/images/bs-kertas.jpg" alt="Tumpukan kertas siap ditimbang di bank sampah" fill sizes="(min-width:1024px) 460px, 100vw" className="object-cover transition-transform duration-700 hover:scale-105" />
+            <Image src="/images/bs-kertas-rt.jpg" alt="Tumpukan kertas siap ditimbang di bank sampah" fill sizes="(min-width:1024px) 460px, 100vw" className="object-cover transition-transform duration-700 hover:scale-105" />
           </div>
         </Reveal>
       </div>

@@ -8,7 +8,7 @@ export default function Image() {
   return ogImage({
     eyebrow: "Panduan Warga",
     title: "Panduan kegiatan kemasyarakatan",
-    photo: "/images/pd-rumah-baru.jpg",
+    photo: "/images/pd-rumah-baru-rt.jpg",
     subtitle: "Surat pengantar, lapor tamu, ronda, bank sampah, dan warga baru.",
   });
 }
